@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://napilinux.ru/en/blog</id>
+    <title>NapiLinux Blog</title>
+    <updated>2023-07-27T10:04:43.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://napilinux.ru/en/blog"/>
+    <subtitle>NapiLinux Blog</subtitle>
+    <icon>https://napilinux.ru/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[one]]></title>
+        <id>https://napilinux.ru/en/blog/index</id>
+        <link href="https://napilinux.ru/en/blog/index"/>
+        <updated>2023-07-27T10:04:43.000Z</updated>
+        <summary type="html"><![CDATA[Текст на русском языке в блоге]]></summary>
+        <content type="html"><![CDATA[<p>Текст на русском языке в блоге</p>]]></content>
+    </entry>
+</feed>
