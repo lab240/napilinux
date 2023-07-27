@@ -3,6 +3,25 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const versions = require('./versions.json');
+
+/** @param {string} version */
+function isPrerelease(version) {
+  return (
+    version.includes('alpha') ||
+    version.includes('beta') ||
+    version.includes('rc')
+  );
+}
+
+function getLastVersion() {
+  const firstStableVersion = versions.find((version) => !isPrerelease(version));
+  return firstStableVersion ?? versions[0];
+}
+
+function getNextVersionName() {
+  return 'Canary';
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -55,11 +74,23 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/lab240/napilinux/blob/main/',
+          editUrl: 'https://github.com/lab240/napilinux/blob/main/',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'v0.1.x',
+              path: '/',
+              badge: true,
+              banner: "none"
+            },
+          },
+          disableVersioning: true,
         },
         blog: {
           showReadingTime: true,
@@ -141,7 +172,6 @@ const config = {
           src: 'img/logo.png',
           srcDark: 'img/logo_dark.png',
         },
-        // style: 'primary',
         hideOnScroll: false,
         items: [
           {
@@ -152,8 +182,18 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            to: '/download',
+            label: 'Download',
+            position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
+          {
             type: 'localeDropdown',
-            position: 'right',            
+            position: 'right',
           },
           {
             href: 'https://github.com/lab240',
