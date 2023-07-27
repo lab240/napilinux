@@ -1,0 +1,14 @@
+{
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "logo.alt": {
+    "message": "NapiLinux Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
