@@ -1,3 +1,5 @@
-# one
+---
+sidebar_position: 1
+---
 
-Текст на русском языке
+# Прошивка NapiLinuxs
