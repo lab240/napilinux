@@ -43,7 +43,7 @@ function FileList() {
   
   return (
     <div className="container">
-    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napi" target="_blank">Скачать другие ревизии</a></p>
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napi" target="_blank">Все образы NapiLinux</a></p>
       <h2>Список установочных образов</h2>
       <ul>{imgFileList}</ul>
       <h2>Список обновлений</h2>

@@ -5,4 +5,4 @@ hide_table_of_contents: true
 ---
 
 
-[Скачать образы](https://packages.nnz-ipc.net/napi/)
+[Все образы NapiLinux](https://packages.nnz-ipc.net/napi/)
