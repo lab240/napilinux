@@ -3,8 +3,6 @@ sidebar_position: 7
 ---
 # Собери сам (примеры сборок)
 
->Статья не закончена
-
 Здесь мы опишем как самостоятельно собрать образ NapiLinux
 в базовом варианте и в варианте Frontcontrol.
 
@@ -43,23 +41,23 @@ Frontcontrol система сбора данных с визуализацие�
 ~/yocto $ git clone --depth 1 git://git.yoctoproject.org/poky -b kirkstone
 ~/yocto $ cd poky
 ~/yocto/poky $ git clone --depth 1 git://git.openembedded.org/meta-openembedded.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 ssh://git@gitlab.nnz-ipc.net:2222/iot/loracross/meta-nnz.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 ssh://git@gitlab.nnz-ipc.net:2222/iot/loracross/meta-readonly-rootfs-overlay.git -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://gitlab.nnz-ipc.net/pub/napilinux/meta-nnz.git -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://gitlab.nnz-ipc.net/pub/napilinux/meta-readonly-rootfs-overlay.git -b kirkstone
 ~/yocto.poky $ git clone --depth 1 https://github.com/sbabic/meta-swupdate -b kirkstone
 ```
 
 Для состава Frontcontrol
 
-```bash
+```bashы
 ~ $ mkdir yocto
 ~ $ cd yocto
 ~/yocto $ git clone --depth 1 git://git.yoctoproject.org/poky -b kirkstone
 ~/yocto $ cd poky
 ~/yocto/poky $ git clone --depth 1 git://git.openembedded.org/meta-openembedded.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 ssh://git@gitlab.nnz-ipc.net:2222/iot/loracross/meta-influx.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 ssh://git@gitlab.nnz-ipc.net:2222/iot/loracross/meta-nnz.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 ssh://git@gitlab.nnz-ipc.net:2222/iot/loracross/meta-readonly-rootfs-overlay.git -b kirkstone
-~/yocto.poky $ git clone --depth 1 https://github.com/sbabic/meta-swupdate -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://gitlab.nnz-ipc.net/pub/napilinux/meta-influx.git -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://gitlab.nnz-ipc.net/pub/napilinux/meta-nnz.git -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://gitlab.nnz-ipc.net/pub/napilinux/meta-readonly-rootfs-overlay.git -b kirkstone
+~/yocto.poky $ git clone --depth 1 https://github.com/sbabic/meta-swupdate -b kirkstone   
 ```
 
 ### Шаг2. Настраиваем окружение.
