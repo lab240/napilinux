@@ -181,6 +181,7 @@ const config = {
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/category/napiconfig', label: 'NapiConfig', position: 'left'},
           {
             to: '/download',
             label: 'Download',
