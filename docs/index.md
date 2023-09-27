@@ -14,9 +14,8 @@ sidebar_position: -1
 
 :::tip NapiConfig
 
-Мы делаем Веб-интерфейс по управлению и отслеживанию параметров NapiLinux: [**NapiConfig**](/docs/category/napiconfig).
+Мы делаем Веб-интерфейс по управлению и отслеживанию параметров NapiLinux: [**NapiConfig**](/napiConfig).
 
 Описание модулей добавляются !
 
 :::
-

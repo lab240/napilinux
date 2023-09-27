@@ -10,5 +10,13 @@
   "logo.alt": {
     "message": "NapiLinux Logo",
     "description": "The alt text of navbar logo"
+  },
+  "item.label.NapiConfig": {
+    "message": "NapiConfig",
+    "description": "Navbar item with label NapiConfig"
+  },
+  "item.label.Download": {
+    "message": "Download",
+    "description": "Navbar item with label Download"
   }
 }
