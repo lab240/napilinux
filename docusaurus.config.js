@@ -137,6 +137,15 @@ const config = {
       enableInProdOnly: true,
       webvisor: true,
     }],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'napiConfig',
+        path: 'napiConfig',
+        routeBasePath: 'napiConfig',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
 
   themeConfig:
@@ -185,8 +194,12 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
+          {
+            to: '/napiConfig',
+            label: 'NapiConfig',
+            position: 'left',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/docs/category/napiconfig', label: 'NapiConfig', position: 'left'},
           {
             to: '/download',
             label: 'Download',

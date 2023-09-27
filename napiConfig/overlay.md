@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Управление оверлеями
@@ -23,4 +23,3 @@ sidebar_position: 3
 - UART-интерфейсы
 - I2c интерфейсы
 - RTC интерфейсы
-  
