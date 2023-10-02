@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknapilinux=self.webpackChunknapilinux||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"one","permalink":"/blog/index"}]}')}}]);

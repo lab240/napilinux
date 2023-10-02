@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://napilinux.ru/blog</id>
     <title>NapiLinux Blog</title>
-    <updated>2023-09-27T11:49:30.000Z</updated>
+    <updated>2023-10-02T14:48:12.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://napilinux.ru/blog"/>
     <subtitle>NapiLinux Blog</subtitle>
     <icon>https://napilinux.ru/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[one]]></title>
+        <title type="html"><![CDATA[Новость №1]]></title>
         <id>https://napilinux.ru/blog/index</id>
         <link href="https://napilinux.ru/blog/index"/>
-        <updated>2023-09-27T11:49:30.000Z</updated>
-        <summary type="html"><![CDATA[Текст на русском языке в блоге]]></summary>
-        <content type="html"><![CDATA[<p>Текст на русском языке в блоге</p>]]></content>
+        <updated>2023-10-02T14:48:12.000Z</updated>
+        <summary type="html"><![CDATA[Запуск этого сайта пока и есть единственная и самая главная новость.]]></summary>
+        <content type="html"><![CDATA[<p>Запуск этого сайта пока и есть единственная и самая главная новость.</p>]]></content>
     </entry>
 </feed>
