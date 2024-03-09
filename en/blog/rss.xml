@@ -4,7 +4,7 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/en/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Fri, 16 Feb 2024 10:20:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Mar 2024 07:32:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[one]]></title>
             <link>https://napilinux.ru/en/blog/index</link>
             <guid>https://napilinux.ru/en/blog/index</guid>
-            <pubDate>Fri, 16 Feb 2024 10:20:34 GMT</pubDate>
+            <pubDate>Sat, 09 Mar 2024 07:32:14 GMT</pubDate>
             <description><![CDATA[Текст на русском языке в блоге]]></description>
             <content:encoded><![CDATA[<p>Текст на русском языке в блоге</p>]]></content:encoded>
         </item>
