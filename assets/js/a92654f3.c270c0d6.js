@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknapilinux=self.webpackChunknapilinux||[]).push([[1448],{3663:a=>{a.exports=JSON.parse('{"label":"napilinux","permalink":"/blog/tags/napilinux","allTagsPath":"/blog/tags","count":1}')}}]);

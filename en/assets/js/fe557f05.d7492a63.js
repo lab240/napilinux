@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknapilinux=self.webpackChunknapilinux||[]).push([[5303],{3021:e=>{e.exports=JSON.parse('{"permalink":"/en/blog/tags/napilinux","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

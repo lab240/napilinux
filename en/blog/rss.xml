@@ -4,7 +4,7 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/en/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Sat, 09 Mar 2024 07:32:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 May 2024 13:30:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,9 +12,20 @@
             <title><![CDATA[one]]></title>
             <link>https://napilinux.ru/en/blog/index</link>
             <guid>https://napilinux.ru/en/blog/index</guid>
-            <pubDate>Sat, 09 Mar 2024 07:32:14 GMT</pubDate>
+            <pubDate>Wed, 15 May 2024 13:30:27 GMT</pubDate>
             <description><![CDATA[Текст на русском языке в блоге]]></description>
             <content:encoded><![CDATA[<p>Текст на русском языке в блоге</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Новый релиз NapiLinux и NapiConfig]]></title>
+            <link>https://napilinux.ru/en/blog/dmn-elemy</link>
+            <guid>https://napilinux.ru/en/blog/dmn-elemy</guid>
+            <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Что нового]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a href="#что-нового" class="hash-link" aria-label="Direct link to Что нового" title="Direct link to Что нового">​</a></h2><p>Ничего</p>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
         </item>
     </channel>
 </rss>
