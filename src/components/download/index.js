@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function FileList() {
-  const sha256sumUrl = "https://packages.nnz-ipc.net/napi/nnz-napi-image/napi-rk3308b-s/SHA256SUM";
+  const sha256sumUrl = "https://packages.nnz-ipc.net/napilinux/nnz-napi-image/napi-rk3308b-s/SHA256SUM";
   
   const [imgFileList, setImgFileList] = useState([]);
   const [swuFileList, setSwuFileList] = useState([]);
@@ -19,7 +19,7 @@ function FileList() {
         
         lines.forEach(line => {
           const [sha256sum, filename] = line.split(/\s+/);
-          const fileUrl = `https://packages.nnz-ipc.net/napi/nnz-napi-image/napi-rk3308b-s/${filename}`;
+          const fileUrl = `https://packages.nnz-ipc.net/napilinux/nnz-napi-image/napi-rk3308b-s/${filename}`;
           
           if (filename.includes(".img.")) {
             imgFiles.push(<li key={filename}><a href={fileUrl} target="_blank">{filename}</a> - <span className="hash">{sha256sum}</span></li>);
