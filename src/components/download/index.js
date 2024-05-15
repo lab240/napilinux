@@ -43,13 +43,7 @@ function FileList() {
   
   return (
     <div className="container">
-    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux" target="_blank">Все образы NapiLinux</a></p>
-     /*
-      <h2>Список установочных образов</h2>
-      <ul>{imgFileList}</ul>
-      <h2>Список обновлений</h2>
-      <ul>{swuFileList}</ul>
-      */
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux" target="_blank">Все образы Armbian \ NapiLinux</a></p>
     </div>
   );
 }
