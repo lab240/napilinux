@@ -43,7 +43,17 @@ function FileList() {
   
   return (
     <div className="container">
-    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux" target="_blank">Все образы Armbian \ NapiLinux</a></p>
+      <p></p>
+    <p> <h2>Текущая версия NapiLinux - 0.1.18</h2>
+    <ul>
+    <li>Файл xxx-rootfs_wic.xz - полная прошивка </li>
+    <li>Файл xxx-.swu - апдейт</li>
+    </ul>
+    </p>
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-napi-based-devs-rk3308bs/" target="_blank">NapiLinux для устройств на базе rk3308 (Napi C/P/S)</a></p>
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-roc-rk3328-cc/" target="_blank">Napilinux для ROC-rk3328-CC на базе rk3328</a></p>
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-rockpro64-rk3309/" target="_blank">Napilinux для RockPro 64 на базе rk3309(Pine64)</a></p>
+    <a href="https://packages.nnz-ipc.net/napilinux/armbian-napi-based-devs-rk3308bs/">ArmBian for Napi devices</a>
     </div>
   );
 }
