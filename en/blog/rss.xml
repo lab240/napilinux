@@ -4,25 +4,17 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/en/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Wed, 15 May 2024 15:03:53 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[one]]></title>
-            <link>https://napilinux.ru/en/blog/index</link>
-            <guid>https://napilinux.ru/en/blog/index</guid>
-            <pubDate>Wed, 15 May 2024 15:03:53 GMT</pubDate>
-            <description><![CDATA[Текст на русском языке в блоге]]></description>
-            <content:encoded><![CDATA[<p>Текст на русском языке в блоге</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Новый релиз NapiLinux и NapiConfig]]></title>
-            <link>https://napilinux.ru/en/blog/dmn-elemy</link>
-            <guid>https://napilinux.ru/en/blog/dmn-elemy</guid>
+            <title><![CDATA[Новый релиз 0.1.19 NapiLinux и NapiConfig]]></title>
+            <link>https://napilinux.ru/en/blog/dmn-0.1.19</link>
+            <guid>https://napilinux.ru/en/blog/dmn-0.1.19</guid>
             <pubDate>Wed, 15 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Что нового]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a href="#что-нового" class="hash-link" aria-label="Direct link to Что нового" title="Direct link to Что нового">​</a></h2><p>Ничего</p>]]></content:encoded>
+            <description><![CDATA[Что нового в прошивке 0.1.19]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового-в-прошивке-0119">Что нового в прошивке 0.1.19<a href="#что-нового-в-прошивке-0119" class="hash-link" aria-label="Direct link to Что нового в прошивке 0.1.19" title="Direct link to Что нового в прошивке 0.1.19">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="состав-linux">Состав Linux<a href="#состав-linux" class="hash-link" aria-label="Direct link to Состав Linux" title="Direct link to Состав Linux">​</a></h3><ul><li>mbusd обновлен до 0.5.2</li><li>добавлена утилита mbpoll (опрос по modbus tcp\rtu), modpoll также присутствует</li><li>добавлена утилита htop</li><li>добавлены утилиты для работы с snmp (snmp-tools) и mibs</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="napiconfig">NapiConfig<a href="#napiconfig" class="hash-link" aria-label="Direct link to NapiConfig" title="Direct link to NapiConfig">​</a></h3><ul><li>Новая главная страница</li></ul><p><img loading="lazy" src="/en/assets/images/fp-8530ace7fc085f287dbf4da61f78a3ad.jpg" width="832" height="478" class="img_ev3q"></p><ul><li>Добавлена возможность закачивать MIB-файлы для дальнейшего опроса по SNMP через Telegraf</li></ul><blockquote><p>Новое меню</p></blockquote><p><img loading="lazy" src="/en/assets/images/snmp-1-b6be4a6efe3f3f03b602401de3c261da.jpg" width="724" height="332" class="img_ev3q"></p><blockquote><p>Возможность загружать MIB-ы (системные уже загружены). Можно подгружать несколько MIB-файлов</p></blockquote><p><img loading="lazy" src="/en/assets/images/snmp-2-aa4399a7c660265ad7bf60a5a980c024.jpg" width="843" height="534" class="img_ev3q"></p><blockquote><p>Загруженный MIB можно удалить</p></blockquote><p><img loading="lazy" src="/en/assets/images/snmp-3-e0cfe78f91d74f50973dd37af634d361.jpg" width="825" height="391" class="img_ev3q"></p><ul><li>Добавлена возможность управлять некоторыми сервисами Linux (telegraf, mbusd, influx, mosquitto)</li></ul><p><img loading="lazy" src="/en/assets/images/services-244695d7c81e2a7578a0830197a0892c.jpg" width="783" height="299" class="img_ev3q"></p><ul><li>Добавлены шаблоны датчиков для опроса по протоколам<ul><li>Modbus RTU</li><li>Modbus TCP</li><li>SNMP </li></ul></li></ul><p><img loading="lazy" src="/en/assets/images/sensors-151a63a942aa00d25528dab983c9621e.jpg" width="854" height="388" class="img_ev3q"></p><ul><li><p>Добавлен системный "датчик" мониторинга системных параметров (загрузка процессора, диска, памяти). Работает только при запущенных сервисах telegraf, influx</p></li><li><p>Экспериментально добавлены графики датчиков. Работает только при запущенных сервисах telegraf, influx</p></li></ul><p><img loading="lazy" src="/en/assets/images/graph-ea78a6171b3306ca2395250adfbf04c3.jpg" width="801" height="548" class="img_ev3q"></p><ul><li>Появилась вкладка "Информация", с краткой справкой</li></ul><p><img loading="lazy" src="/en/assets/images/info-69c41b10d05bcae1b1f3c8079e0c57f2.jpg" width="564" height="338" class="img_ev3q"></p><ul><li>Появился Веб-интерфейс к открытому шлюзу Modbus RTU-TCP. Не забудьте включить службу. Учитывайте что сервис mbusd блокирует RS485 порт, утилиты modpoll\mbpoll и telegraf в режиме modbus rtu работать не будут. </li></ul><p><img loading="lazy" src="/en/assets/images/mbusd-5e5473fb55c17ac7fe97189cccd0fd6b.jpg" width="864" height="632" class="img_ev3q"></p>]]></content:encoded>
             <category>napiworld</category>
             <category>napi</category>
             <category>napilinux</category>
