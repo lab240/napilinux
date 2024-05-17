@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Системные параметры и мониторинг
 
+## Главная страница
+
+![](img1/fp.jpg)
+
 ## Вход в меню управления системными параметрами
 
 ![](img-s/sys0.png)
@@ -39,4 +43,22 @@ sidebar_position: 1
 
 ## Мониторинг системных служб
 
-![](img-s/sys2.png)
+![](img1/services.jpg)
+
+### Пояснения к интерфейсу
+
+- Active\Inactive запускает или останавливает сервис
+  
+  > Active - systemctl start service
+
+  > InActive - systemctl stop service;
+  
+- Enabled\Disabled активирует \ декативирует службу при старте системы
+  
+  > Enable - systemctl enable
+  
+  > Disable - systemctl disable
+  
+- Некоторые сервисы работают в паре (telegraf\influxdb)
+   
+
