@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Работа с датчиками
 
 Мы используем "комбайн" [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) для опроса разнородных данных и 
