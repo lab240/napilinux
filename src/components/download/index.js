@@ -52,7 +52,7 @@ function FileList() {
     </p>
     <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-napi-based-devs-rk3308bs/" target="_blank">NapiLinux для устройств на базе rk3308 (Napi C/P/S)</a></p>
     <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-roc-rk3328-cc/" target="_blank">Napilinux для ROC-rk3328-CC на базе rk3328</a></p>
-    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-rockpro64-rk3309/" target="_blank">Napilinux для RockPro 64 на базе rk3309(Pine64)</a></p>
+    <p style={{margin: "20px 10px",}}><a className="button button--primary" href="https://packages.nnz-ipc.net/napilinux/napilinux-rockpro64-rk3399/" target="_blank">Napilinux для RockPro 64 на базе rk3399(Pine64)</a></p>
     <a href="https://packages.nnz-ipc.net/napilinux/armbian-napi-based-devs-rk3308bs/">ArmBian for Napi devices</a>
     </div>
   );
