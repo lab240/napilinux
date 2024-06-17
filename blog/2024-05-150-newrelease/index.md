@@ -1,5 +1,5 @@
 ---
-slug: dmn-0.1.19
+slug: napilinux-0.1.19
 title: Новый релиз 0.1.19 NapiLinux и NapiConfig            
 authors: dmn
 tags: [napiworld, napi, napilinux]
