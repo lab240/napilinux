@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 ![NapiLinux](img-logo/logo-2.png)
 
->:fire: **Что нового в [NapiLinux 0.1.19](../../blog/napilinux-0.1.19/)**  
+>:fire: **Что нового в [NapiLinux 0.1.19](/blog/napilinux-0.1.19/)**  
 
 ## Общие сведения
 
