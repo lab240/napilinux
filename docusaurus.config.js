@@ -1,9 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const versions = require('./versions.json');
+import { themes } from 'prism-react-renderer'
+import versions from './versions.json'
+
+const lightCodeTheme = themes.github
+const darkCodeTheme = themes.dracula
+
 
 /** @param {string} version */
 function isPrerelease(version) {
@@ -105,7 +108,7 @@ const config = {
       }),
     ],
   ],
-  
+
   themes: [
     [
       // @ts-ignore
