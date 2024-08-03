@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknapilinux=self.webpackChunknapilinux||[]).push([[3802],{2394:a=>{a.exports=JSON.parse('{"label":"napiworld","permalink":"/blog/tags/napiworld","allTagsPath":"/blog/tags","count":1}')}}]);
