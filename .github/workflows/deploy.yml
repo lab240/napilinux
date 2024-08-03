@@ -19,12 +19,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
-          node-version: 19.x
+          node-version: 20.9.0
           cache: npm
-      - name: npm install
-        run: npm install && npx docusaurus --version
-      - name: Install dependencies
-        run: npm ci
+      - name: npm install dependencies
+        run: npm ci && npx docusaurus -V
       - name: Build website
         run: npm run build
       - name: Copy CNAME
