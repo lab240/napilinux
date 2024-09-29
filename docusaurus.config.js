@@ -209,6 +209,11 @@ const config = {
             position: 'left',
           },
           {
+            to: 'https://sensor.napilinux.ru',
+            label: 'Sensors (beta)',
+            position: 'left'
+          },
+          {
             type: 'docsVersionDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
