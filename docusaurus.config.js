@@ -149,6 +149,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'napiconfig2',
+        path: 'napiconfig2',
+        routeBasePath: 'napiconfig2',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
 
   themeConfig:
@@ -196,6 +205,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Инструкции',
+          },
+          {
+            to: '/napiconfig2',
+            label: 'NapiConfig2',
+            position: 'left',
           },
           {
             to: '/napiConfig',
