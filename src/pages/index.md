@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 ![NapiLinux](img-logo/logo-2.png)
 
->:fire: **Скачать [NapiLinux 0.2.1](https://download.napilinux.ru/napios/)**
+>:fire: **Скачать [NapiLinux 0.2.1](https://download.napilinux.ru/napilinux/)**
 
 ## Общие сведения
 
