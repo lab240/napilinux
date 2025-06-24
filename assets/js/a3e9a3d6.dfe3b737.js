@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknapilinux=self.webpackChunknapilinux||[]).push([[9871],{592:n=>{n.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"napiconfig2"}')}}]);
