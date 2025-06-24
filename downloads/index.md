@@ -55,8 +55,7 @@ wget -O - https://download.napilinux.ru/napilinux/0.2.1.1/napilinux-repka-pi4-op
 Можно заранее скачать прошивку
 
 ```
-cat napilinux-repka-pi4-optimal-dev-0.2.1.1.rootfs.system_img.xz \
-| xz -T0 -d \
+xz -T0 -d --stdout napilinux-repka-pi4-optimal-dev-0.2.1.1.rootfs.system_img.xz \
 | dd of=/dev/mmcblk2 bs=4M status=progress
 
 ```
@@ -87,6 +86,13 @@ qemu-system-x86_64 \
   -device virtio-scsi-pci \
   -device scsi-hd,drive=hd0 \
   -boot order=d \
-  -netdev user,id=net0 \
+  -netdev user,id=net0,hostfwd=tcp::2222-:22,hostfwd=tcp::8080-:80,hostfwd=tcp::8443-:443 \
   -device virtio-net-pci,netdev=net0
+```
+
+После используем:
+
+```
+curl https://localhost:8443/
+ssh root@localhost:2222
 ```

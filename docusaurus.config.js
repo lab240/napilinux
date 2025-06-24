@@ -230,7 +230,7 @@ const config = {
             label: 'NapiConfig(old)',
             position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Новости', position: 'left'},
           {
             to: 'https://sensor.napilinux.ru',
             label: 'Sensors (beta)',
