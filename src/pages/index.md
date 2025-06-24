@@ -29,7 +29,7 @@ Napi Linux построен на основе Napi.Api - оператор или
 
 ## Поддерживаемые платформы
 
-:fire:**Прошивки и инструкции в разделе [Downloads](/download)**
+:fire:**Прошивки и инструкции в разделе [Downloads](/downloads)**
 
 ### Российские платы
 
@@ -40,12 +40,12 @@ Napi Linux построен на основе Napi.Api - оператор или
 
 ### Популярные платформы и архитектуры
 
-- [Raspberry Pi](/Download)
-- [X86 (64bit)](/Download)
+- [Raspberry Pi](/downloads)
+- [X86 (64bit)](/downloads)
 
 ### Виртуальные машины
 
-- Образ [Quemu](/Download)
+- Образ [Quemu](/downloads)
 
 
 ### Мини-компьютеры на основе NAPI
