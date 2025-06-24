@@ -4,10 +4,64 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Wed, 15 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Новая версия NapiLinux 0.2.х и NapiConfig2]]></title>
+            <link>https://napilinux.ru/blog/napilinux-0.2.1</link>
+            <guid>https://napilinux.ru/blog/napilinux-0.2.1</guid>
+            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Совершенно новый релиз  - 0.2.Х]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="совершенно-новый-релиз----02х">Совершенно новый релиз  - 0.2.Х<a class="hash-link" aria-label="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" title="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B5%D0%BB%D0%B8%D0%B7----02%D1%85">​</a></h2>
+<p><strong>Целый год мы перерабатывали NapiLinux, NapiConfig чтобы
+сделать достойный релиз с быстрой Вебкой и поддержкой популярных платформ.
+В первом релизе мы сделали упор на работу с датчиками, но теперь будем быстро дорабатывать и остальной функционал.</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Прямая ссылка на Что нового" title="Прямая ссылка на Что нового" href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="основное">Основное<a class="hash-link" aria-label="Прямая ссылка на Основное" title="Прямая ссылка на Основное" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5">​</a></h3>
+<ul>
+<li>переработанный совершенно новый интерфейс NapiConfig2, работающий через Napi.API (Vue + FastApi)</li>
+<li>кардинально повышена отзывчивость и реактивность системы</li>
+<li>управление всеми системными службами</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="датчики">Датчики<a class="hash-link" aria-label="Прямая ссылка на Датчики" title="Прямая ссылка на Датчики" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA%D0%B8">​</a></h3>
+<ul>
+<li>новый движок построения графиков из внутренней базы</li>
+<li>возможность тестирования конфига Telegraf налету и до включения датчика</li>
+<li>онлайн репозиторий с готовыми конфигурациями датчиков в тестовом режиме</li>
+<li>загрузка mib-файлов из NapiConfig2</li>
+<li>новый интерфейс к modbus шлюзу, не позволяющий делать ошибки</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="сеть">Сеть<a class="hash-link" aria-label="Прямая ссылка на Сеть" title="Прямая ссылка на Сеть" href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%81%D0%B5%D1%82%D1%8C">​</a></h3>
+<ul>
+<li>обновленная логика управления сетью через NapiConfig2</li>
+<li>поддержка нескольких интерфейсов</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="безопасность">Безопасность<a class="hash-link" aria-label="Прямая ссылка на Безопасность" title="Прямая ссылка на Безопасность" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C">​</a></h3>
+<ul>
+<li>API-ключи авторизации для внешних интеграций</li>
+<li>весь трафик при управлении устройством по NapiConfig2 шифруется</li>
+<li>просим сменить пароль при первом входе =)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="оформление">Оформление<a class="hash-link" aria-label="Прямая ссылка на Оформление" title="Прямая ссылка на Оформление" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5">​</a></h3>
+<ul>
+<li>поддержка тем (светлая, темная, адаптивная)</li>
+<li>поддержка мульти-язычности</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="поддержка-платформ">Поддержка платформ<a class="hash-link" aria-label="Прямая ссылка на Поддержка платформ" title="Прямая ссылка на Поддержка платформ" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC">​</a></h3>
+<ul>
+<li>Napi</li>
+<li>Repka Pi 4</li>
+<li>Raspberry Pi</li>
+<li>64битных x86</li>
+<li>виртуальная машина для QUEMU</li>
+<li>виртуальная машина для VitrualBox\Vmware</li>
+</ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+        </item>
         <item>
             <title><![CDATA[Новый релиз 0.1.19 NapiLinux и NapiConfig]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.1.19</link>
@@ -83,7 +137,7 @@
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="как-проверить-корректность-работы-telegraf">Как проверить корректность работы Telegraf<a class="hash-link" aria-label="Прямая ссылка на Как проверить корректность работы Telegraf" title="Прямая ссылка на Как проверить корректность работы Telegraf" href="https://napilinux.ru/blog/napilinux-0.1.19#%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-telegraf">​</a></h2>
 <p>В командной строке набрать команду, гасить службу telegraf при этом необязательно.</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">root@napi-rk3328:~# telegraf --test -config /etc/telegraf/telegraf.conf --config-directory /data/active/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="С�копировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">root@napi-rk3328:~# telegraf --test -config /etc/telegraf/telegraf.conf --config-directory /data/active/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Также для подробного вывода можно использовать флажок ```--debug``</p>
 <p>Узнать запустилась ли служба можно командой</p>
 <div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">systemctl status telegraf</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
