@@ -158,6 +158,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+    '@docusaurus/plugin-content-docs',
+      {
+        id: 'downloads',
+        path: 'downloads',
+        routeBasePath: 'downloads',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
 
   themeConfig:
@@ -200,6 +209,16 @@ const config = {
         },
         hideOnScroll: false,
         items: [
+                   {
+            to: '/napiconfig2',
+            label: 'NapiConfig2',
+            position: 'left',
+          },
+          {
+            to: '/downloads',
+            label: 'Downloads',
+            position: 'left',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -207,21 +226,11 @@ const config = {
             label: 'Инструкции',
           },
           {
-            to: '/napiconfig2',
-            label: 'NapiConfig2',
-            position: 'left',
-          },
-          {
             to: '/napiConfig',
-            label: 'NapiConfig',
+            label: 'NapiConfig(old)',
             position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            to: '/download',
-            label: 'Download',
-            position: 'left',
-          },
           {
             to: 'https://sensor.napilinux.ru',
             label: 'Sensors (beta)',
