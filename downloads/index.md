@@ -4,7 +4,18 @@ sidebar_position: 1
 
 # Загрузка и прошивка
 
-> :fire:Прошивки с ОС NapiLinux по ссылке: **https://download.napilinux.ru/napilinux/** \
+> :fire:Прошивки с ОС NapiLinux по ссылке: **https://download.napilinux.ru/napilinux/**
+
+
+## На сайте download.napilinux.ru
+
+Версия соответствует каталогу
+
+![](img/check-version.jpg)
+
+В имени папки - платформа для которой предназначена прошивка
+
+![](img/check-platform.jpg)
 
 
 :::tip Файлы на сервере
@@ -13,6 +24,8 @@ sidebar_position: 1
 - Файл xxx-.swu - апдейт
 
 :::
+
+![](img/check-file.jpg)
 
 :::tip Программы для прошивки
 
@@ -25,9 +38,9 @@ sidebar_position: 1
 
 > Старые прошивки доступны по ссылке: **https://download.napilinux.ru/linuximg/napilinux/**
 
-<!-- ##  Краткие инструкции -->
+##  Краткие инструкции по установке
 
-## NAPI-C, NAPI-P, Сборщик, Токосборщик
+### NAPI-C, NAPI-P, Сборщик, Токосборщик
 
 > Чтобы быстро попробовать достаточно прошить файл с прошивкой на SD карту программой BalenaEther или Rufus.
 
@@ -36,11 +49,11 @@ sidebar_position: 1
 
 >:point_up: Во всех примерах конкретную версию файла смотрите на сайте скачиваний и поставляйте вместо приведенной в примере
 
-## Repka Pi 4
+### Repka Pi 4
 
 >Достаточно прошить файл с прошивкой для Repka на SD карту программой BalenaEther или Rufus.
 
-### Как прошить в EMMC
+Как прошить в EMMC
 
 - Прошить SD загрузится
 - Зайти и выполнить команду
@@ -62,19 +75,19 @@ xz -T0 -d --stdout napilinux-repka-pi4-optimal-dev-0.2.1.1.rootfs.system_img.xz 
 
 Эти команды разжимают файл с прошивкой и копируют его в EMMC
 
-## Rasberry PI 4
+### Rasberry PI 4
 
 >Достаточно прошить файл с прошивкой для Repka на SD карту программой BalenaEther или Rufus.
 
 
-## X86 (64bit)
+### X86 (64bit)
 
 - Скачать файл с инсталлером: napilinux-intel-corei7-64-dev-installer-0.2.1.1.rootfs.system_img.xz
 - Через Balena или Rufus прошить на USB-флешку
 - Загрузится с флешки (f12 и выбрать источник загрузки)
 - Указать устройство куда разместить NapiLinux (как правило это /dev/sda1)
 
-## Виртуальная машина QUEMU
+### Виртуальная машина QUEMU
 
 ```
 qemu-system-x86_64 \
@@ -88,11 +101,24 @@ qemu-system-x86_64 \
   -boot order=d \
   -netdev user,id=net0,hostfwd=tcp::2222-:22,hostfwd=tcp::8080-:80,hostfwd=tcp::8443-:443 \
   -device virtio-net-pci,netdev=net0
-```
 
-После используем:
 
 ```
-curl https://localhost:8443/
-ssh root@localhost:2222
+
+- Порты:
+
+    • 2222 → 22 (SSH);
+    • 8080 → 80 (HTTP);
+    • 8443 → 443 (HTTPS)
+
+- Доступ по ssh
+
 ```
+ssh root@192.168.0.18 -p 2222
+```
+
+- Доступ к NapiConfig2
+
+https://192.168.0.18:8443/
+
+IP: 192.168.0.18 это IP, выделенный виртуальной машиной.
