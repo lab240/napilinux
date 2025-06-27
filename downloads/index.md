@@ -87,7 +87,7 @@ xz -T0 -d --stdout napilinux-repka-pi4-optimal-dev-0.2.1.1.rootfs.system_img.xz 
 - Загрузится с флешки (f12 и выбрать источник загрузки)
 - Указать устройство куда разместить NapiLinux (как правило это /dev/sda1)
 
-### Виртуальная машина QUEMU
+### Виртуальная машина QEMU
 
 ```
 qemu-system-x86_64 \
