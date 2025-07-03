@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 ## NapiLinux - Linux для embedded систем
 
->:fire: **Скачать [NapiLinux 0.2.1](https://download.napilinux.ru/napilinux/)**
+>:fire: **Вышло обновление [NapiLinux 0.2.2](https://download.napilinux.ru/napilinux/)**
 
 ![](img021-arch/main-021.jpg)
 
