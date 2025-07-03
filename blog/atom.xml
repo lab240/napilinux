@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://napilinux.ru/blog</id>
     <title>NapiLinux Blog</title>
-    <updated>2025-07-03T10:55:14.000Z</updated>
+    <updated>2025-07-03T11:29:32.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://napilinux.ru/blog"/>
     <subtitle>NapiLinux Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Обновление NapiLinux - терминальная сессия прямо их Веб-интерфейса]]></title>
         <id>https://napilinux.ru/blog/napilinux-0.2.2</id>
         <link href="https://napilinux.ru/blog/napilinux-0.2.2"/>
-        <updated>2025-07-03T10:55:14.000Z</updated>
+        <updated>2025-07-03T11:29:32.000Z</updated>
         <summary type="html"><![CDATA[Первое обновление - 0.2.2]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="первое-обновление---022">Первое обновление - 0.2.2<a class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022">​</a></h2>
 <p>По горячим следам выкатываем первые обновления. Внутри - исправление ошибок и новая супер-фича (которую мы хотели очень давно) - <strong>ssh терминал прямо из Веб интерфейса</strong></p>
