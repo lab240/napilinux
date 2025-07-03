@@ -62,3 +62,9 @@ sidebar_position: 1
 ## Управление службами Linux с фильтрацией
 
 ![](img-0.2.1/services-filtered-0.2.1.jpg)
+
+## Терминал ssh
+
+![](img-0.2.1/terminal-newjpg.jpg)
+
+![](img-0.2.1/terminal-htop.jpg)
