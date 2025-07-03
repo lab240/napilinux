@@ -4,7 +4,7 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Thu, 03 Jul 2025 10:43:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Jul 2025 10:55:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Обновление NapiLinux - терминальная сессия прямо их Веб-интерфейса]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.2.2</link>
             <guid>https://napilinux.ru/blog/napilinux-0.2.2</guid>
-            <pubDate>Thu, 03 Jul 2025 10:43:04 GMT</pubDate>
+            <pubDate>Thu, 03 Jul 2025 10:55:14 GMT</pubDate>
             <description><![CDATA[Первое обновление - 0.2.2]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="первое-обновление---022">Первое обновление - 0.2.2<a class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022">​</a></h2>
 <p>По горячим следам выкатываем первые обновления. Внутри - исправление ошибок и новая супер-фича (которую мы хотели очень давно) - <strong>ssh терминал прямо из Веб интерфейса</strong></p>
