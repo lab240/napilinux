@@ -4,7 +4,7 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Sat, 05 Jul 2025 19:13:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Aug 2025 15:16:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Обновление NapiLinux - терминальная сессия прямо их Веб-интерфейса]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.2.2</link>
             <guid>https://napilinux.ru/blog/napilinux-0.2.2</guid>
-            <pubDate>Sat, 05 Jul 2025 19:13:17 GMT</pubDate>
+            <pubDate>Wed, 06 Aug 2025 15:16:24 GMT</pubDate>
             <description><![CDATA[Первое обновление - 0.2.2]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="первое-обновление---022">Первое обновление - 0.2.2<a class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022">​</a></h2>
 <p>По горячим следам выкатываем первые обновления. Внутри - исправление ошибок и новая супер-фича (которую мы хотели очень давно) - <strong>ssh терминал прямо из Веб интерфейса</strong></p>
@@ -29,6 +29,76 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="исправили-ошибки">Исправили ошибки<a class="hash-link" aria-label="Прямая ссылка на Исправили ошибки" title="Прямая ссылка на Исправили ошибки" href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B8-%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8">​</a></h2>
 <ul>
 <li>Исправили некорректное отображение данных в графиках</li>
+</ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+        </item>
+        <item>
+            <title><![CDATA[Обновление NapiLinux - логи запуска служб и сервисов]]></title>
+            <link>https://napilinux.ru/blog/napilinux-0.2.3</link>
+            <guid>https://napilinux.ru/blog/napilinux-0.2.3</guid>
+            <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Очередное обновление - 0.2.3]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="очередное-обновление---023">Очередное обновление - 0.2.3<a class="hash-link" aria-label="Прямая ссылка на Очередное обновление - 0.2.3" title="Прямая ссылка на Очередное обновление - 0.2.3" href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---023">​</a></h2>
+<blockquote>
+<p><strong>Скачать: <a href="https://download.napilinux.ru/napilinux/0.2.3/" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.2.3/</a></strong></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Прямая ссылка на Что нового" title="Прямая ссылка на Что нового" href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
+<p>Добавлены логи запуска служб и сервисов. Из Веб-интерфейса можно смотреть логи запуска службы. (раньше для этого приходилось "бежать" в командную строку и вызывать joutrnalctl).</p>
+<p><img decoding="async" loading="lazy" src="https://napilinux.ru/assets/images/napiservlogs-82c98ba4ee2183b5ae24604dc11607a1.jpg" width="1258" height="796" class="img_ev3q"></p>
+<p>Пример: служба influx</p>
+<p><img decoding="async" loading="lazy" src="https://napilinux.ru/assets/images/napiservlogs-influx-63e743c47a85318fb2d3f4c9798a69a7.jpg" width="1643" height="968" class="img_ev3q"></p>
+<p>Пример: служба telegraf в отдельном окне</p>
+<p><img decoding="async" loading="lazy" src="https://napilinux.ru/assets/images/napilogs-497c5607e70c6e1e45b16849943f0239.jpg" width="1066" height="728" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="техно-лог-обновления-023">Техно-лог обновления 0.2.3<a class="hash-link" aria-label="Прямая ссылка на Техно-лог обновления 0.2.3" title="Прямая ссылка на Техно-лог обновления 0.2.3" href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-023">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="добавлено">Добавлено<a class="hash-link" aria-label="Прямая ссылка на Добавлено" title="Прямая ссылка на Добавлено" href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE">​</a></h3>
+<ul>
+<li>Системные логи: Реализована полная система управления логами</li>
+<li>Компонент SystemBoots.vue для просмотра загрузок системы</li>
+<li>Компонент SystemJournal.vue для просмотра системного журнала</li>
+<li>Компонент SystemJournalDiskUsage.vue для мониторинга использования диска журналом</li>
+<li>Компонент SystemJournalVacuum.vue для очистки журнала</li>
+<li>Компонент useLogs.ts для работы с API логов</li>
+<li>Улучшения в сервисах: Расширен компонент ServiceDetails.vue для отображения логов сервисов</li>
+<li>Локализация: Добавлены переводы для системы логов на 5 языков (немецкий, английский, русский, узбекский, китайский)</li>
+<li>API расширения: Обновлены клиентские схемы и типы для работы с логами</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="изменено">Изменено<a class="hash-link" aria-label="Прямая ссылка на Изменено" title="Прямая ссылка на Изменено" href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%BE">​</a></h3>
+<ul>
+<li>Обновлен Node.js до версии 22.17.1</li>
+<li>Улучшена конфигурация Vite для лучшей производительности</li>
+<li>Обновлены зависимости проекта</li>
+<li>Удален бейдж "soon" из меню системных логов</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="техническое">Техническое<a class="hash-link" aria-label="Прямая ссылка на Техническое" title="Прямая ссылка на Техническое" href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5">​</a></h3>
+<ul>
+<li>Обновлен OpenAPI схема с новыми эндпоинтами для логов (3590+ строк изменений)</li>
+<li>Обновлены автогенерированные клиентские файлы</li>
+<li>Улучшена конфигурация CI/CD pipeline</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="техно-лог-обновления-бекенда">Техно-лог обновления бекенда<a class="hash-link" aria-label="Прямая ссылка на Техно-лог обновления бекенда" title="Прямая ссылка на Техно-лог обновления бекенда" href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%BA%D0%B5%D0%BD%D0%B4%D0%B0">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="добавлено-1">Добавлено<a class="hash-link" aria-label="Прямая ссылка на Добавлено" title="Прямая ссылка на Добавлено" href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE-1">​</a></h3>
+<ul>
+<li>Модуль journalctl: Добавлен полнофункциональный модуль для управления системными логами</li>
+<li>Контроллер journalctl с поддержкой различных фильтров и параметров</li>
+<li>Сервис для обработки запросов к journalctl</li>
+<li>Репозиторий для взаимодействия с системными логами</li>
+<li>Схемы данных для валидации и сериализации логов</li>
+<li>Поддержка фильтрации по времени, приоритету, юнитам systemd</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="улучшено">Улучшено<a class="hash-link" aria-label="Прямая ссылка на Улучшено" title="Прямая ссылка на Улучшено" href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%BE">​</a></h3>
+<ul>
+<li>Системный контроллер: Рефакторинг импортов и обеспечение вызова программного сброса перед перезагрузкой</li>
+<li>Системная информация: Расширена модель SystemInfo дополнительными полями и улучшено получение системной информации</li>
+<li>InfluxDB: Оптимизирована обработка данных сенсоров и конвертация значений</li>
+<li>Терминал:<!-- -->
+<ul>
+<li>Обновлена конфигурация терминала с удалением неиспользуемого ttyd_config_path</li>
+<li>Увеличена длина токена для повышения безопасности</li>
+<li>Улучшено логирование</li>
+</ul>
+</li>
 </ul>]]></content:encoded>
             <category>napiworld</category>
             <category>napi</category>
@@ -64,7 +134,7 @@
 <li>обновленная логика управления сетью через NapiConfig2</li>
 <li>поддержка нескольких интерфейсов</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="безопасность">Безопасность<a class="hash-link" aria-label="Прямая ссылка на Безопасность" title="Прямая с�сылка на Безопасность" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="безопасность">Безопасность<a class="hash-link" aria-label="Прямая ссылка на Безопасность" title="Прямая ссылка на Безопасность" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C">​</a></h3>
 <ul>
 <li>API-ключи авторизации для внешних интеграций</li>
 <li>весь трафик при управлении устройством по NapiConfig2 шифруется</li>
