@@ -68,3 +68,13 @@ sidebar_position: 1
 ![](img-0.2.1/terminal-newjpg.jpg)
 
 ![](img-0.2.1/terminal-htop.jpg)
+
+## Логи служб
+
+
+![](img-0.2.3/napiservlogs.jpg)
+
+
+![](img-0.2.3/napilogs.jpg)
+
+![](img-0.2.3/napiservlogs-influx.jpg)

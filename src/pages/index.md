@@ -9,7 +9,7 @@ hide_table_of_contents: true
 ## NapiLinux - Linux для embedded систем
 
 >:fire: **Новая версия [NapiLinux и NapiConfig2](/blog/napilinux-0.2.1)** \
->:fire: **Вышло обновление [NapiLinux 0.2.2](/blog/napilinux-0.2.2)**
+>:fire: **Вышло обновление [NapiLinux 0.2.3](/blog/napilinux-0.2.3)**
 
 ![](img021-arch/main-021.jpg)
 
