@@ -11,7 +11,7 @@ hide_table_of_contents: true
 >:fire: **Новая версия [NapiLinux и NapiConfig2](/blog/napilinux-0.2.1)** \
 >:fire: **Вышло обновление [NapiLinux 0.2.3](/blog/napilinux-0.2.3)**
 
-![](img021-arch/main-021.jpg)
+![Основная схема архитектуры NapiLinux](img021-arch/main-021.jpg)
 
 
 >***NapiLinux - дистрибутив для встраиваемых систем для работы с данными. Особенность нашей ОС - заточенность под сбор, хранение и преобразование данных с датчиков и других источников, резервирование и отказоусточивость. Прямо "из Вебки" (NapiConfig) можно "заводить" датчики в систему (через конфигурацию Telegraf) тестировать сбор данных, работать с данными через графики. И, конечно, бекапы, апдейты и откат в дефолт "из коробки".***
@@ -22,7 +22,7 @@ hide_table_of_contents: true
 
 Napi Linux построен на основе Napi.Api - оператор или стороннее приложение не работает с устройством напрямую. Имеется интеграция для взаимодействия с сторонними приложениями через токены.
 
-![](img021-arch/arch-021-1.jpg)
+![Архитектура системы NapiLinux](img021-arch/arch-021-1.jpg)
 
 ## NapiConfig: управление через Веб
 
@@ -30,7 +30,7 @@ Napi Linux построен на основе Napi.Api - оператор или
 
 >:fire: Требования для системы минимальны - от 512Мб ОЗУ.
 
-![](../../napiconfig2/img-0.2.1/main-0.2.1-2.jpg)
+![Интерфейс NapiConfig2](../../napiconfig2/img-0.2.1/main-0.2.1-2.jpg)
 
 Основные функции настройки Linux мы перекладываем на Веб-интерфейс NapiConfig2 и наше собственное API.
 [Подробнее...](/napiConfig/)
@@ -44,7 +44,7 @@ Napi Linux построен на основе Napi.Api - оператор или
 - **NAPI С\P: http://napiworld.ru**
 - **Repka Pi: https://repka-pi.ru**
 
-![](img-arch/napi-c-repka-mpt-1.jpg)
+![Российские платы NAPI-C, Repka Pi](img-arch/napi-c-repka-mpt-1.jpg)
 
 ### Популярные платформы и архитектуры
 
@@ -61,7 +61,7 @@ Napi Linux построен на основе Napi.Api - оператор или
 - [Сборщик-компакт](https://napiworld.ru/docs/computers/frontcontrol-compact)
 - [FrontControl 150.901](https://nnz-ipc.ru/catalogue/front_man/front_control/front_control_pc/)
 
-![](../../static/img/compact-1.jpg)
+![Мини-компьютеры на основе NAPI](../../static/img/compact-1.jpg)
 
 
 :::info

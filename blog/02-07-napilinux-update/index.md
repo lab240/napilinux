@@ -15,11 +15,11 @@ tags: [napiworld, napi, napilinux]
 
 - :fire: Терминальный клиент ssh из коробки :fire:
 
-![](img/terminal-newjpg.jpg)
+![Новый терминал в веб-интерфейсе](img/terminal-newjpg.jpg)
 
 Терминал полностью функционален, как будто вы вошли через ssh клиент !
 
-![](img/terminal-htop.jpg)
+![Запуск htop в веб-терминале](img/terminal-htop.jpg)
 ## Исправили ошибки
 
 - Исправили некорректное отображение данных в графиках
