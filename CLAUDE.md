@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Communication Language
+
+Please communicate in Russian (русский язык) when working on this project.
+
 ## Project Overview
 
 This is a Docusaurus-based documentation website for NapiLinux, built with modern static site generation. The site supports multiple languages (Russian and English) and includes multiple documentation sections.
