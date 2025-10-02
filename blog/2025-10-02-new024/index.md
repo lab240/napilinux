@@ -15,7 +15,7 @@ tags: [napiworld, napi, napilinux]
 
 >:fire: Похоже, мы первые кто собрал Linux для CM4 на ядре 6.х :fire:
 
-- Новая программка [modlink](https://gitlab.nnz-ipc.net/pub/modlink): обраный шлюз Modbus TCP -> Modbus RTU.
+- Новая программка [modlink](https://gitlab.nnz-ipc.net/pub/modlink): "обратный" шлюз Modbus TCP -> Modbus RTU.
 
 *Модуль Orange CM4*
 
