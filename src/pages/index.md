@@ -56,13 +56,21 @@ Napi Linux построен на основе Napi.Api - оператор или
 - Образ [Qemu](/downloads)
 
 
-### Мини-компьютеры на основе NAPI
+### Мини-компьютеры на основе NAPI c rk3308
 
-- [Сборщик-компакт](https://napiworld.ru/docs/computers/frontcontrol-compact)
+- [Сборщик-компакт FCC3308](https://napiworld.ru/docs/computers-industrial/FCC3308/)
+- [Сборщик-универсал FCU3308P](https://napiworld.ru/docs/computers-industrial/FCU3308P/)
+- [Токо-Сборщик FCU3308PG](https://napiworld.ru/docs/special/FCU3308PG/)
 - [FrontControl 150.901](https://nnz-ipc.ru/catalogue/front_man/front_control/front_control_pc/)
 
 ![Мини-компьютеры на основе NAPI](../../static/img/compact-1.jpg)
 
+
+### Мини-компьютеры на основе NAPI Orange CM4
+
+- [Сборщик-универсал FCUCM4](https://napiworld.ru/docs/computers-industrial/FCUCM4/)
+
+![](../../static/img/FCUCM4.jpg)
 
 :::info
 Мы можем собрать и оптимизировать NapiLinux под Вашу платформу.

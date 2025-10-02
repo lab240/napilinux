@@ -1,6 +1,6 @@
 ---
 slug: napilinux-0.2.4
-title: Обновление NapiLinux - поддержка orange CM4
+title: Обновление NapiLinux - поддержка Orange CM4
 authors: dmn
 tags: [napiworld, napi, napilinux]
 ---
