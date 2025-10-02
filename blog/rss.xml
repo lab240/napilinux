@@ -4,7 +4,7 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Wed, 03 Sep 2025 12:42:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Oct 2025 11:13:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Обновление NapiLinux - терминальная сессия прямо их Веб-интерфейса]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.2.2</link>
             <guid>https://napilinux.ru/blog/napilinux-0.2.2</guid>
-            <pubDate>Wed, 03 Sep 2025 12:42:19 GMT</pubDate>
+            <pubDate>Thu, 02 Oct 2025 11:13:55 GMT</pubDate>
             <description><![CDATA[Первое обновление - 0.2.2]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="первое-обновление---022">Первое обновление - 0.2.2<a class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022">​</a></h2>
 <p>По горячим следам выкатываем первые обновления. Внутри - исправление ошибок и новая супер-фича (которую мы хотели очень давно) - <strong>ssh терминал прямо из Веб интерфейса</strong></p>
@@ -30,6 +30,45 @@
 <ul>
 <li>Исправили некорректное отображение данных в графиках</li>
 </ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+        </item>
+        <item>
+            <title><![CDATA[Обновление NapiLinux - поддержка orange CM4]]></title>
+            <link>https://napilinux.ru/blog/napilinux-0.2.4</link>
+            <guid>https://napilinux.ru/blog/napilinux-0.2.4</guid>
+            <pubDate>Thu, 02 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Очередное обновление NapiLinux5- 0.2.4]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="очередное-обновление-napilinux5--024">Очередное обновление NapiLinux5- 0.2.4<a class="hash-link" aria-label="Прямая ссылка на Очередное обновление NapiLinux5- 0.2.4" title="Прямая ссылка на Очередное обновление NapiLinux5- 0.2.4" href="https://napilinux.ru/blog/napilinux-0.2.4#%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux5--024">​</a></h2>
+<blockquote>
+<p><strong>Скачать: <a href="https://download.napilinux.ru/napilinux/0.2.4/" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.2.4/</a></strong></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Прямая ссылка на Что нового" title="Прямая ссылка на Что нового" href="https://napilinux.ru/blog/napilinux-0.2.4#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
+<ul>
+<li>Поддержка популярнейшего чипа Orange CM4 и <strong><a href="https://napiworld.ru/docs/computers-industrial/FCUCM4/" target="_blank" rel="noopener noreferrer">FCUCM4</a></strong>  на его основе.</li>
+</ul>
+<blockquote>
+<p>🔥<!-- --> Похоже, мы первые кто собрал Linux для CM4 на ядре 6.х <!-- -->🔥</p>
+</blockquote>
+<ul>
+<li>Новая программка <a href="https://gitlab.nnz-ipc.net/pub/modlink" target="_blank" rel="noopener noreferrer">modlink</a>: обраный шлюз Modbus TCP -&gt; Modbus RTU.</li>
+</ul>
+<p><em>Модуль Orange CM4</em></p>
+<p><img decoding="async" loading="lazy" alt="Модуль Orange CM4" src="https://napilinux.ru/assets/images/cm4-90d846266d2e44a94e2466ae45949f5f.jpg" width="343" height="257" class="img_ev3q"></p>
+<p><em>Сборщик-Универсал <strong><a href="https://napiworld.ru/docs/computers-industrial/FCUCM4/" target="_blank" rel="noopener noreferrer">FCUCM4</a></strong> на основе Orange CM4</em></p>
+<p><img decoding="async" loading="lazy" alt="Сборщик-Универсал FCUCM4 на основе Orange CM4" src="https://napilinux.ru/assets/images/FCUCM4-732f268e0cabc7ff1e399ed8a2ecfe4d.jpg" width="736" height="601" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="технический-лог">Технический лог<a class="hash-link" aria-label="Прямая ссылка на Технический лог" title="Прямая ссылка на Технический лог" href="https://napilinux.ru/blog/napilinux-0.2.4#%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BB%D0%BE%D0%B3">​</a></h2>
+<ul>
+<li>Добавлена поддержка <strong>Orange Pi CM4</strong> (u-boot, ядро, swupdate, hwrevision).</li>
+<li>Обновлены оверлеи для <strong>rk3568</strong> и <strong>rk3308</strong>.</li>
+<li>Переработан рецепт <strong>u-boot</strong> для Rockchip BSP.</li>
+<li>Добавлены новые рецепты: <strong>linux-napi-opi-cm4</strong>, <strong>modlink 0.1</strong>.</li>
+<li>Обновлены версии зависимостей в связи с найденными уязвимостями (<strong>CVE</strong>).</li>
+</ul>
+<blockquote>
+<p>Обновляйтесь и тестируйте новую сборку!</p>
+</blockquote>]]></content:encoded>
             <category>napiworld</category>
             <category>napi</category>
             <category>napilinux</category>
@@ -231,7 +270,7 @@
 <li>Для того, чтобы редактировать файл датчика, его надо включить. При этом, если файл неправильный, то telegraf не запустится. После редактирования файла датчика при корректном конфиге telegraf запустится автоматически (если включена его служба).</li>
 <li>Для проверки корректности работы telegraf (идут данные или нет, какие данные идут), необходимо пользоваться командной строкой, скоро это можно будет сделать через Веб</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="как-проверить-корректность-работы-telegraf">Как проверить корректность работы Telegraf<a class="hash-link" aria-label="Прямая ссылка на Как проверить корректность работы Telegraf" title="Прямая ссылка на Как проверит�ь корректность работы Telegraf" href="https://napilinux.ru/blog/napilinux-0.1.19#%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-telegraf">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="как-проверить-корректность-работы-telegraf">Как проверить корректность работы Telegraf<a class="hash-link" aria-label="Пря�мая ссылка на Как проверить корректность работы Telegraf" title="Прямая ссылка на Как проверить корректность работы Telegraf" href="https://napilinux.ru/blog/napilinux-0.1.19#%D0%BA%D0%B0%D0%BA-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C-%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-telegraf">​</a></h2>
 <p>В командной строке набрать команду, гасить службу telegraf при этом необязательно.</p>
 <div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">root@napi-rk3328:~# telegraf --test -config /etc/telegraf/telegraf.conf --config-directory /data/active/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Скопировать в буфер обмена" title="Скопировать" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Также для подробного вывода можно использовать флажок ```--debug``</p>
