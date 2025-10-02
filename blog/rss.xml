@@ -26,7 +26,7 @@
 <p>🔥<!-- --> Похоже, мы первые кто собрал Linux для CM4 на ядре 6.х <!-- -->🔥</p>
 </blockquote>
 <ul>
-<li>Новая программка <a href="https://gitlab.nnz-ipc.net/pub/modlink" target="_blank" rel="noopener noreferrer">modlink</a>: обраный шлюз Modbus TCP -&gt; Modbus RTU.</li>
+<li>Новая программка <a href="https://gitlab.nnz-ipc.net/pub/modlink" target="_blank" rel="noopener noreferrer">modlink</a>: "обратный" шлюз Modbus TCP -&gt; Modbus RTU.</li>
 </ul>
 <p><em>Модуль Orange CM4</em></p>
 <p><img decoding="async" loading="lazy" alt="Модуль Orange CM4" src="https://napilinux.ru/assets/images/cm4-90d846266d2e44a94e2466ae45949f5f.jpg" width="343" height="257" class="img_ev3q"></p>
