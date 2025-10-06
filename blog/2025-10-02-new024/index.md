@@ -5,7 +5,7 @@ authors: dmn
 tags: [napiworld, napi, napilinux]
 ---
 
-## Очередное обновление NapiLinux5- 0.2.4
+## Очередное обновление NapiLinux- 0.2.4
 
 >**Скачать: https://download.napilinux.ru/napilinux/0.2.4/**
 
