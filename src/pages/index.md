@@ -9,10 +9,10 @@ hide_table_of_contents: true
 ## NapiLinux - Linux для embedded систем
 
 <!-- >>:fire: **Новая версия [NapiLinux и NapiConfig2](/blog/napilinux-0.2.1)** \ -->
->:fire: **Вышло обновление [NapiLinux 0.2.5](/blog/napilinux-0.2.5)**
+>:fire: **Скачать актуальную версию [NapiLinux](https://download.napilinux.ru/napilinux/)** \
+>:fire: **Вышло обновление [NapiLinux 0.2.6.1](/blog/napilinux-0.2.6.1)**
 
 ![Основная схема архитектуры NapiLinux](img021-arch/main-021.jpg)
-
 
 >***NapiLinux - дистрибутив для встраиваемых систем для работы с данными. Особенность нашей ОС - заточенность под сбор, хранение и преобразование данных с датчиков и других источников, резервирование и отказоусточивость. Прямо "из Вебки" (NapiConfig) можно "заводить" датчики в систему (через конфигурацию Telegraf) тестировать сбор данных, работать с данными через графики. И, конечно, бекапы, апдейты и откат в дефолт "из коробки".***
 
@@ -41,10 +41,12 @@ Napi Linux построен на основе Napi.Api - оператор или
 
 ### Российские платы
 
-- **NAPI С\P: http://napiworld.ru**
-- **Repka Pi: https://repka-pi.ru**
+- **[Napi-С, Napi-P](https://napiworld.ru/docs/napi-intro)**
+- **[NAPI2](https://napiworld.ru/docs/napi2/)**
+- **[Repka Pi](https://repka-pi.ru)**
 
 ![Российские платы NAPI-C, Repka Pi](img-arch/napi-c-repka-mpt-1.jpg)
+![Российские платы NAPI2](img-arch/napi2.jpg)
 
 ### Популярные платформы и архитектуры
 
@@ -55,7 +57,6 @@ Napi Linux построен на основе Napi.Api - оператор или
 
 - Образ [Qemu](/downloads)
 
-
 ### Мини-компьютеры на основе NAPI c rk3308
 
 - [Сборщик-компакт FCC3308](https://napiworld.ru/docs/computers-industrial/FCC3308/)
@@ -64,7 +65,6 @@ Napi Linux построен на основе Napi.Api - оператор или
 - [FrontControl 150.901](https://nnz-ipc.ru/catalogue/front_man/front_control/front_control_pc/)
 
 ![Мини-компьютеры на основе NAPI](../../static/img/compact-1.jpg)
-
 
 ### Мини-компьютеры на основе NAPI Orange CM4
 
@@ -111,5 +111,5 @@ Napi Linux построен на основе Napi.Api - оператор или
 - Получать телеметрию и логи от всех узлов в реальном времени.
 
 :::tip Таков путь
-Тестируйте NapiLinux - все образы доступны. Подписывайтесь на канал @napiworld (https://t.me/napiworld) и пишите нам в чат канала.
+Тестируйте NapiLinux - все образы доступны. Подписывайтесь на канал [@napiworld](https://t.me/napiworld) и пишите нам в чат канала.
 :::
