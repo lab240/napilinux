@@ -2,11 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://napilinux.ru/blog</id>
     <title>NapiLinux Blog</title>
-    <updated>2025-10-13T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://napilinux.ru/blog"/>
     <subtitle>NapiLinux Blog</subtitle>
     <icon>https://napilinux.ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Обновление NapiLinux 0.2.6.1]]></title>
+        <id>https://napilinux.ru/blog/napilinux-0.2.6.1</id>
+        <link href="https://napilinux.ru/blog/napilinux-0.2.6.1"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Обновление NapiLinux 0.2.6.1]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-0261">Обновление NapiLinux 0.2.6.1<a class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.2.6.1" title="Прямая ссылка на Обновление NapiLinux 0.2.6.1" href="https://napilinux.ru/blog/napilinux-0.2.6.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0261">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Скачать...</a></strong></p>
+</blockquote>
+<p>В этом релизе добавлена поддержка новой аппаратной ревизии NAPI-2, обновлены ключевые компоненты загрузки и ядра, а также внесены улучшения в сборочную инфраструктуру.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="основные-изменения">Основные изменения<a class="hash-link" aria-label="Прямая ссылка на Основные изменения" title="Прямая ссылка на Основные изменения" href="https://napilinux.ru/blog/napilinux-0.2.6.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h2>
+<ul>
+<li>
+<p><strong>Добавлена новая машина napi-2 и поддержка аппаратной ревизии NAPI-2</strong></p>
+</li>
+<li>
+<p>Добавлена конфигурация U-Boot для napi-2</p>
+</li>
+<li>
+<p>Обновлён U-Boot и связанные рецепты (SRCREV)</p>
+</li>
+<li>
+<p>Обновлено ядро Linux до версии 6.6.89</p>
+</li>
+<li>
+<p>Изменён адрес загрузки Device Tree overlays в boot.cmd</p>
+</li>
+<li>
+<p>Исправлена ошибка монтирования vfat</p>
+</li>
+</ul>
+<p>🔥<!-- --> Улучшения сборки и разработки:</p>
+<ul>
+<li>Утилита dtc (Device Tree Compiler) добавлена в пакетную группу nnz-dev</li>
+</ul>
+<p>🔥<!-- --> Версии компонентов:</p>
+<ul>
+<li>napi-linux: 0.2.6</li>
+<li>linux-napi-rk: 6.6.89</li>
+</ul>
+<p>🔥<!-- --> Релиз ориентирован на расширение аппаратной поддержки, повышение стабильности загрузки и актуализацию ядра Linux.</p>
+<blockquote>
+<p>Рекомендуем всем пользователям пользоваться версией 0.2.6.1 для получения более стабильной работы системы.</p>
+</blockquote>]]></content>
+        <author>
+            <name>dmn</name>
+            <uri>https://github.com/dmnovikov</uri>
+        </author>
+        <category label="napiworld" term="napiworld"/>
+        <category label="napi" term="napi"/>
+        <category label="napilinux" term="napilinux"/>
+        <category label="bugfix" term="bugfix"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Обновление NapiLinux 0.2.5 - исправления ошибок]]></title>
         <id>https://napilinux.ru/blog/napilinux-0.2.5</id>
