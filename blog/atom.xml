@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://napilinux.ru/blog</id>
     <title>NapiLinux Blog</title>
-    <updated>2026-01-10T00:00:00.000Z</updated>
+    <updated>2026-03-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://napilinux.ru/blog"/>
     <subtitle>NapiLinux Blog</subtitle>
     <icon>https://napilinux.ru/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Обновление NapiLinux 0.2.7]]></title>
+        <id>https://napilinux.ru/blog/napilinux-0.2.7</id>
+        <link href="https://napilinux.ru/blog/napilinux-0.2.7"/>
+        <updated>2026-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Обновление NapiLinux 0.2.7]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-027">Обновление NapiLinux 0.2.7<a class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.2.7" title="Прямая ссылка на Обновление NapiLinux 0.2.7" href="https://napilinux.ru/blog/napilinux-0.2.7#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-027">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Скачать...</a></strong></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="основные-изменения">Основные изменения<a class="hash-link" aria-label="Прямая ссылка на Основные изменения" title="Прямая ссылка на Основные изменения" href="https://napilinux.ru/blog/napilinux-0.2.7#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h2>
+<ul>
+<li>Переработана схема разделов: теперь используется единый rootfs-раздел (для napi-2 и rk3308).</li>
+<li>Упрощена конфигурация обновлений (swupdate) — убраны лишние и дублирующиеся настройки.</li>
+<li>Обновлены загрузчик (u-boot) для платформ Rockchip.</li>
+<li>Обновлены компоненты веб-интерфейса:<!-- -->
+<ul>
+<li>API до версии 0.11.1</li>
+<li>фронтенд до версии 0.20</li>
+</ul>
+</li>
+<li>В веб-интерфейсе добавлено предупреждение о рассинхронизации времени.</li>
+<li>Обновлены зависимости и исправлены известные уязвимости.</li>
+</ul>]]></content>
+        <author>
+            <name>dmn</name>
+            <uri>https://github.com/dmnovikov</uri>
+        </author>
+        <category label="napiworld" term="napiworld"/>
+        <category label="napi" term="napi"/>
+        <category label="napilinux" term="napilinux"/>
+        <category label="bugfix" term="bugfix"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Обновление NapiLinux 0.2.6.1]]></title>
         <id>https://napilinux.ru/blog/napilinux-0.2.6.1</id>
@@ -217,7 +250,7 @@
 <p><strong>Целый год мы перерабатывали NapiLinux, NapiConfig, чтобы
 сделать достойный релиз с быстрой веб-частью и поддержкой популярных платформ.
 В первом релизе мы сделали упор на работу с датчиками, но теперь будем быстро дорабатывать и остальной функционал.</strong></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Прямая ссылка на Что нового" title="Прямая ссылка на Что нового" href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Прямая ссы�лка на Что нового" title="Прямая ссылка на Что нового" href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="основное">Основное<a class="hash-link" aria-label="Прямая ссылка на Основное" title="Прямая ссылка на Основное" href="https://napilinux.ru/blog/napilinux-0.2.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5">​</a></h3>
 <ul>
 <li>переработанный совершенно новый интерфейс NapiConfig2, работающий через Napi.API (Vue + FastApi)</li>
@@ -330,7 +363,7 @@
 <li>Появился Веб-интерфейс к открытому шлюзу Modbus RTU-TCP. Не забудьте включить службу. Учитывайте что сервис mbusd блокирует RS485 порт, утилиты modpoll\mbpoll и telegraf в режиме modbus rtu работать не будут.</li>
 </ul>
 <p><img decoding="async" loading="lazy" alt="Веб-интерфейс Modbus RTU-TCP шлюза" src="https://napilinux.ru/assets/images/mbusd-5e5473fb55c17ac7fe97189cccd0fd6b.jpg" width="864" height="632" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="известные-проблемы">Известные проблемы<a class="hash-link" aria-label="Прямая ссылка на Известные проблемы" title="Прямая ссылка на Известные проблемы" href="https://napilinux.ru/blog/napilinux-0.1.19#%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="изв�естные-проблемы">Известные проблемы<a class="hash-link" aria-label="Прямая ссылка на Известные проблемы" title="Прямая ссылка на Известные проблемы" href="https://napilinux.ru/blog/napilinux-0.1.19#%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B">​</a></h2>
 <ul>
 <li>Апдейт системы не работает из Веб-интерфейса, необходимо пользоваться swupdate который доступен через веб по адресу: <a href="http://ip:8082/" target="_blank" rel="noopener noreferrer">http://IP:8082</a></li>
 <li>После Апдейта через swupdate надо перегрузить устройство вручную (через ssh или Веб)</li>
