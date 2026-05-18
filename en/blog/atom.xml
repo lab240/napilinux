@@ -2,11 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://napilinux.ru/en/blog</id>
     <title>NapiLinux Blog</title>
-    <updated>2026-03-21T00:00:00.000Z</updated>
+    <updated>2026-05-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://napilinux.ru/en/blog"/>
     <subtitle>NapiLinux Blog</subtitle>
     <icon>https://napilinux.ru/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Обновление NapiLinux 0.2.8.1]]></title>
+        <id>https://napilinux.ru/en/blog/napilinux-0.2.8.1</id>
+        <link href="https://napilinux.ru/en/blog/napilinux-0.2.8.1"/>
+        <updated>2026-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Обновление NapiLinux 0.2.8.1]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-0281">Обновление NapiLinux 0.2.8.1<a class="hash-link" aria-label="Direct link to Обновление NapiLinux 0.2.8.1" title="Direct link to Обновление NapiLinux 0.2.8.1" href="https://napilinux.ru/en/blog/napilinux-0.2.8.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0281">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Скачать...</a></strong></p>
+</blockquote>
+<p>Вышел релиз napi-linux 0.2.8.1
+Скачать: <a href="https://download.napilinux.ru/napilinux/0.2.8.1" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.2.8.1</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-изменилось">Что изменилось<a class="hash-link" aria-label="Direct link to Что изменилось" title="Direct link to Что изменилось" href="https://napilinux.ru/en/blog/napilinux-0.2.8.1#%D1%87%D1%82%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%BE%D1%81%D1%8C">​</a></h2>
+<ul>
+<li>Добавлен recovery раздел — устройство теперь более корректно работает при обновлении системы</li>
+<li>Переработан процесс обновлений (SWUpdate) — теперь он более надёжный</li>
+<li>Добавлены пакеты:<!-- -->
+<ul>
+<li>discoverd</li>
+<li>napi-motd</li>
+<li>tcpdump</li>
+<li>tree</li>
+<li>xxd</li>
+<li>git</li>
+<li>can-utils</li>
+</ul>
+</li>
+<li>Обновлён веб-интерфейс и API:<!-- -->
+<ul>
+<li>улучшено управление модулями системы</li>
+<li>добавлена логика, учитывающая тип дистрибутива устройства</li>
+<li>расширена информация о системе (включая данные об ОС)</li>
+</ul>
+</li>
+<li>Улучшена работа системы обновления модулей и совместимости компонентов.</li>
+<li>Обновлены системные зависимости и пакеты для повышения стабильности.</li>
+</ul>]]></content>
+        <author>
+            <name>dmn</name>
+            <uri>https://github.com/dmnovikov</uri>
+        </author>
+        <category label="napiworld" term="napiworld"/>
+        <category label="napi" term="napi"/>
+        <category label="napilinux" term="napilinux"/>
+        <category label="bugfix" term="bugfix"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Обновление NapiLinux 0.2.7]]></title>
         <id>https://napilinux.ru/en/blog/napilinux-0.2.7</id>
