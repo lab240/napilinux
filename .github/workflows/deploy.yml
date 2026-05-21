@@ -47,7 +47,7 @@ jobs:
       - name: Deploy to Server
         uses: burnett01/rsync-deployments@v8
         with:
-          switches: -avz --delete
+          switches: -avz --delete --chmod=D2775,F664
           path: build/
           remote_path: ${{ secrets.SERVER_WWW_PATH }}
           remote_host: ${{ secrets.SERVER_HOST }}
