@@ -4,10 +4,45 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/en/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Обновление NapiLinux 0.3.0]]></title>
+            <link>https://napilinux.ru/en/blog/napilinux-0.3.0</link>
+            <guid>https://napilinux.ru/en/blog/napilinux-0.3.0</guid>
+            <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Обновление NapiLinux 0.3.0]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-030">Обновление NapiLinux 0.3.0<a class="hash-link" aria-label="Direct link to Обновление NapiLinux 0.3.0" title="Direct link to Обновление NapiLinux 0.3.0" href="https://napilinux.ru/en/blog/napilinux-0.3.0#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-030">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Скачать...</a></strong></p>
+</blockquote>
+<p>Вышел релиз napi-linux 0.3.0
+Скачать: <a href="https://download.napilinux.ru/napilinux/0.3.0" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.3.0</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-изменилось">Что изменилось<a class="hash-link" aria-label="Direct link to Что изменилось" title="Direct link to Что изменилось" href="https://napilinux.ru/en/blog/napilinux-0.3.0#%D1%87%D1%82%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%BE%D1%81%D1%8C">​</a></h2>
+<p>Основные изменения:</p>
+<ul>
+<li>Добавлена поддержка графического стека: Wayland, OpenGL, Vulkan</li>
+<li>Добавлен новый графический компонент napi-cog</li>
+<li>Добавлены графические пакеты и утилиты (nnz-graphics, nnz-graphics-tools)</li>
+<li>Добавлен новый образ системы с графикой (режим киоск) (nnz-napi-image-graphics)</li>
+<li>Обновлён Linux kernel до версии 6.18 (linux-napi_6.18) для napi-2</li>
+<li>Обновлены драйверы и графические компоненты для платформ Rockchip (Mesa)</li>
+<li>Добавлены системные утилиты: devmem2, ethtool, fio, mdio-tools, phytool</li>
+<li>Улучшен процесс восстановления системы (recovery init: таймаут root device)</li>
+<li>Исправлены загрузочные параметры и адреса загрузки FIT-образа для napi-2</li>
+<li>Увеличена стабильность загрузки и обновлены компоненты u-boot</li>
+<li>Обновлён набор системных конфигураций Rockchip</li>
+<li>Обновлён терминальный и системный вывод (motd)</li>
+<li><strong>Скорость консоли переключена на 1500000</strong></li>
+<li>Изменён стандартный backend рендеринга WPE на wpebackend-fdo</li>
+</ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+            <category>bugfix</category>
+        </item>
         <item>
             <title><![CDATA[Обновление NapiLinux 0.2.8.1]]></title>
             <link>https://napilinux.ru/en/blog/napilinux-0.2.8.1</link>
@@ -90,7 +125,7 @@
 <p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Скачать...</a></strong></p>
 </blockquote>
 <p>В этом релизе добавлена поддержка новой аппаратной ревизии NAPI-2, обновлены ключевые компоненты загрузки и ядра, а также внесены улучшения в сборочную инфраструктуру.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="основные-изменения">Основные изменения<a class="hash-link" aria-label="Direct link to Основные изменения" title="Direct link to Основные изменения" href="https://napilinux.ru/en/blog/napilinux-0.2.6.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="основные-изменения">Основные изменения<a class="hash-link" aria-label="Direct link to Основные изменения" title="Direct link to Основные изменения" href="https://napilinux.ru/en/blog/napilinux-0.2.6.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%EF%BF%BD%D0%B5-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F">​</a></h2>
 <ul>
 <li>
 <p><strong>Добавлена новая машина napi-2 и поддержка аппаратной ревизии NAPI-2</strong></p>
@@ -236,7 +271,7 @@
 <li>Обновлены автогенерированные клиентские файлы</li>
 <li>Улучшена конфигурация CI/CD pipeline</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="техно-лог-обновления-бекенда">Техно-лог обновления бекенда<a class="hash-link" aria-label="Direct link to Техно-лог обновления бекенда" title="Direct link to Техно-лог обновления бекенда" href="https://napilinux.ru/en/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%BA%D0%B5%D0%BD%D0%B4%D0%B0">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="техно-лог-обновления-бекенда">Техно-лог обновления бекенда<a class="hash-link" aria-label="Direct link to Техно-лог обновления бекенд�а" title="Direct link to Техно-лог обновления бекенда" href="https://napilinux.ru/en/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B1%D0%B5%D0%BA%D0%B5%D0%BD%D0%B4%D0%B0">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="добавлено-1">Добавлено<a class="hash-link" aria-label="Direct link to Добавлено" title="Direct link to Добавлено" href="https://napilinux.ru/en/blog/napilinux-0.2.3#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE-1">​</a></h3>
 <ul>
 <li>Модуль journalctl: Добавлен полнофункциональный модуль для управления системными логами</li>
@@ -382,7 +417,7 @@
 <li>Появился Веб-интерфейс к открытому шлюзу Modbus RTU-TCP. Не забудьте включить службу. Учитывайте что сервис mbusd блокирует RS485 порт, утилиты modpoll\mbpoll и telegraf в режиме modbus rtu работать не будут.</li>
 </ul>
 <p><img decoding="async" loading="lazy" alt="Веб-интерфейс Modbus RTU-TCP шлюза" src="https://napilinux.ru/en/assets/images/mbusd-5e5473fb55c17ac7fe97189cccd0fd6b.jpg" width="864" height="632" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="известные-проблемы">Известные проблемы<a class="hash-link" aria-label="Direct link to Известные проблемы" title="Direct link to Известные проблемы" href="https://napilinux.ru/en/blog/napilinux-0.1.19#%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="известные-проблемы">Известные проблемы<a class="hash-link" aria-label="Direct link to Известные проблемы" title="Direct link to Изв�естные проблемы" href="https://napilinux.ru/en/blog/napilinux-0.1.19#%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B">​</a></h2>
 <ul>
 <li>Апдейт системы не работает из Веб-интерфейса, необходимо пользоваться swupdate который доступен через веб по адресу: <a href="http://ip:8082/" target="_blank" rel="noopener noreferrer">http://IP:8082</a></li>
 <li>После Апдейта через swupdate надо перегрузить устройство вручную (через ssh или Веб)</li>
