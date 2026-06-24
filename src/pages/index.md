@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 <!-- >>:fire: **Новая версия [NapiLinux и NapiConfig2](/blog/napilinux-0.2.1)** \ -->
 >:fire: **Скачать актуальную версию [NapiLinux](https://download.napilinux.ru/napilinux/)** \
->:fire: **Вышло обновление [NapiLinux 0.2.8.1](/blog/napilinux-0.2.8.1)**
+>:fire: **Вышло обновление [NapiLinux 0.3.0](/blog/napilinux-0.3.0)**
 
 ![Основная схема архитектуры NapiLinux](img021-arch/main-021.jpg)
 
