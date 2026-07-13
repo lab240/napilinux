@@ -4,10 +4,44 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Sat, 20 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Обновление NapiLinux 0.3.0.1]]></title>
+            <link>https://napilinux.ru/blog/napilinux-0.3.0.1</link>
+            <guid>https://napilinux.ru/blog/napilinux-0.3.0.1</guid>
+            <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Обновление NapiLinux 0.3.0.1]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-0301">Обновление NapiLinux 0.3.0.1<a class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.0.1" title="Прямая ссылка на Обновление NapiLinux 0.3.0.1" href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0301">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Все версии...</a></strong></p>
+</blockquote>
+<p>Вышел релиз napi-linux 0.3.0.1</p>
+<blockquote>
+<p>Скачать: <a href="https://download.napilinux.ru/napilinux/0.3.0.1" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.3.0.1</a></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-изменилось">Что изменилось<a class="hash-link" aria-label="Прямая ссылка на Что изменилось" title="Прямая ссылка на Что изменилось" href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D1%87%D1%82%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%BE%D1%81%D1%8C">​</a></h2>
+<p>Основные изменения:</p>
+<ul>
+<li>Добавлена поддержка управления SNMP через веб-интерфейс и API.</li>
+<li>Улучшена производительность работы встроенного веб-сервера за счёт оптимизации обработки запросов.</li>
+<li>Для устройств napi-c с eMMC включён высокоскоростной режим HS200, что значительно увеличивает скорость работы встроенного накопителя.<!-- -->
+<ul>
+<li>Чтение: до 125 MiB/s</li>
+<li>Запись: до 108 MiB/s</li>
+</ul>
+</li>
+<li>Добавлен новый Device Tree Overlay rk3308-spi2-w5500 для подключения Ethernet-контроллера W5500 по SPI.</li>
+<li>Обновлена конфигурация Device Tree для платформ RK3308: упрощены и модернизированы оверлеи.</li>
+<li>В веб-интерфейс добавлен</li>
+</ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+            <category>bugfix</category>
+        </item>
         <item>
             <title><![CDATA[Обновление NapiLinux 0.3.0]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.3.0</link>
@@ -37,40 +71,6 @@
 <li>Обновлён терминальный и системный вывод (motd)</li>
 <li><strong>Скорость консоли переключена на 1500000</strong></li>
 <li>Изменён стандартный backend рендеринга WPE на wpebackend-fdo</li>
-</ul>]]></content:encoded>
-            <category>napiworld</category>
-            <category>napi</category>
-            <category>napilinux</category>
-            <category>bugfix</category>
-        </item>
-        <item>
-            <title><![CDATA[Обновление NapiLinux 0.3.0.1]]></title>
-            <link>https://napilinux.ru/blog/napilinux-0.3.0.1</link>
-            <guid>https://napilinux.ru/blog/napilinux-0.3.0.1</guid>
-            <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Обновление NapiLinux 0.3.0.1]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-0301">Обновление NapiLinux 0.3.0.1<a class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.0.1" title="Прямая ссылка на Обновление NapiLinux 0.3.0.1" href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0301">​</a></h2>
-<blockquote>
-<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Все версии...</a></strong></p>
-</blockquote>
-<p>Вышел релиз napi-linux 0.3.0.1</p>
-<blockquote>
-<p>Скачать: <a href="https://download.napilinux.ru/napilinux/0.3.0.1" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.3.0.1</a></p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-изменилось">Что изменилось<a class="hash-link" aria-label="Прямая ссылка на Что изменилось" title="Прямая ссылка на Что изменилось" href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D1%87%D1%82%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%BE%D1%81%D1%8C">​</a></h2>
-<p>Основные изменения:</p>
-<ul>
-<li>Добавлена поддержка управления SNMP через веб-интерфейс и API.</li>
-<li>Улучшена производительность работы встроенного веб-сервера за счёт оптимизации обработки запросов.</li>
-<li>Для устройств napi-c с eMMC включён высокоскоростной режим HS200, что значительно увеличивает скорость работы встроенного накопителя.<!-- -->
-<ul>
-<li>Чтение: до 125 MiB/s</li>
-<li>Запись: до 108 MiB/s</li>
-</ul>
-</li>
-<li>Добавлен новый Device Tree Overlay rk3308-spi2-w5500 для подключения Ethernet-контроллера W5500 по SPI.</li>
-<li>Обновлена конфигурация Device Tree для платформ RK3308: упрощены и модернизированы оверлеи.</li>
-<li>В веб-интерфейс добавлен</li>
 </ul>]]></content:encoded>
             <category>napiworld</category>
             <category>napi</category>
