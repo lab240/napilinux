@@ -4,10 +4,47 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/en/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Sat, 11 Jul 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Обновление NapiLinux 0.3.1]]></title>
+            <link>https://napilinux.ru/en/blog/napilinux-0.3.1</link>
+            <guid>https://napilinux.ru/en/blog/napilinux-0.3.1</guid>
+            <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Обновление NapiLinux 0.3.1]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="обновление-napilinux-031">Обновление NapiLinux 0.3.1<a class="hash-link" aria-label="Direct link to Обновление NapiLinux 0.3.1" title="Direct link to Обновление NapiLinux 0.3.1" href="https://napilinux.ru/en/blog/napilinux-0.3.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-031">​</a></h2>
+<blockquote>
+<p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer">Все версии...</a></strong></p>
+</blockquote>
+<p>Вышел релиз napi-linux 0.3.1</p>
+<blockquote>
+<p>Скачать: <a href="https://download.napilinux.ru/napilinux/0.3.1" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.3.1</a></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-изменилось">Что изменилось<a class="hash-link" aria-label="Direct link to Что изменилось" title="Direct link to Что изменилось" href="https://napilinux.ru/en/blog/napilinux-0.3.1#%D1%87%D1%82%D0%BE-%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B8%D0%BB%D0%BE%D1%81%D1%8C">​</a></h2>
+<p>Основные изменения</p>
+<ul>
+<li>🔥<!-- --> Добавлена сборка с GNOME и Flatpak для napi-2.</li>
+<li>Для процессоров RK3308 структура разделов приведена к единому виду с другими платформами.</li>
+</ul>
+<p>Обратите внимание:</p>
+<blockquote>
+<p><strong>Важно: релиз 0.3.1 для RK3308 необходимо устанавливать на чистое устройство — обновление с предыдущих версий не поддерживается.</strong></p>
+</blockquote>
+<ul>
+<li>Улучшен режим восстановления системы: переработана структура recovery-скриптов и добавлена индикация процесса обновления через LED.</li>
+<li>🔥<!-- --> Для napi-2 добавлена поддержка CAN2 и улучшена работа Ethernet PHY.</li>
+<li>Для napi-2 переработана поддержка LVDS, используется актуальная реализация в ядре.</li>
+<li>Улучшена работа sdmmc на napi-2: добавлен режим SD-UHS SDR104.</li>
+<li>Исправлено управление подсветкой на некоторых конфигурациях RK3568 и g121ice-l01(lvds).</li>
+<li>🔥<!-- --> Добавлен функционал сетевого моста ядра Linux.</li>
+</ul>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napilinux</category>
+            <category>bugfix</category>
+        </item>
         <item>
             <title><![CDATA[Обновление NapiLinux 0.3.0.1]]></title>
             <link>https://napilinux.ru/en/blog/napilinux-0.3.0.1</link>
@@ -343,7 +380,7 @@
 сделать достойный релиз с быстрой веб-частью и поддержкой популярных платформ.
 В первом релизе мы сделали упор на работу с датчиками, но теперь будем быстро дорабатывать и остальной функционал.</strong></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Direct link to Что нового" title="Direct link to Что нового" href="https://napilinux.ru/en/blog/napilinux-0.2.1#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ос�новное">Основное<a class="hash-link" aria-label="Direct link to Основное" title="Direct link to Основное" href="https://napilinux.ru/en/blog/napilinux-0.2.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="осно�вное">Основное<a class="hash-link" aria-label="Direct link to Основное" title="Direct link to Основное" href="https://napilinux.ru/en/blog/napilinux-0.2.1#%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B5">​</a></h3>
 <ul>
 <li>переработанный совершенно новый интерфейс NapiConfig2, работающий через Napi.API (Vue + FastApi)</li>
 <li>кардинально повышена отзывчивость и реактивность системы</li>
@@ -481,7 +518,7 @@
 <blockquote>
 <p><strong>Скачать: <a href="https://download.napilinux.ru/napilinux/0.2.2/" target="_blank" rel="noopener noreferrer">https://download.napilinux.ru/napilinux/0.2.2/</a></strong></p>
 </blockquote>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Direct link to Что нового" title="Direct link to Что нового" href="https://napilinux.ru/en/blog/napilinux-0.2.2#%D1%87%D1%82%D0%BE-%D0%BD%EF%BF%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="что-нового">Что нового<a class="hash-link" aria-label="Direct link to Что нового" title="Direct link to Что нового" href="https://napilinux.ru/en/blog/napilinux-0.2.2#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%EF%BF%BD%D0%BE%D0%B3%D0%BE">​</a></h2>
 <ul>
 <li>🔥<!-- --> Терминальный клиент ssh из коробки <!-- -->🔥</li>
 </ul>
