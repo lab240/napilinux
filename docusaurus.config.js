@@ -1,19 +1,18 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-import { themes } from 'prism-react-renderer'
-import versions from './versions.json'
+import { themes } from "prism-react-renderer";
+import versions from "./versions.json";
 
-const lightCodeTheme = themes.github
-const darkCodeTheme = themes.dracula
-
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @param {string} version */
 function isPrerelease(version) {
   return (
-    version.includes('alpha') ||
-    version.includes('beta') ||
-    version.includes('rc')
+    version.includes("alpha") ||
+    version.includes("beta") ||
+    version.includes("rc")
   );
 }
 
@@ -23,74 +22,79 @@ function getLastVersion() {
 }
 
 function getNextVersionName() {
-  return 'Canary';
+  return "Canary";
 }
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NapiLinux',
-  tagline: 'Our team',
-  favicon: 'img/favicon.ico',
+  title: "NapiLinux",
+  tagline: "Our team",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://napilinux.ru',
+  url: "https://napilinux.ru",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Napilinux', // Usually your GitHub org/user name.
-  projectName: 'Napilinux', // Usually your repo name.
+  organizationName: "Napilinux", // Usually your GitHub org/user name.
+  projectName: "Napilinux", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru', 'en'],
-    path: 'i18n',
+    defaultLocale: "ru",
+    locales: ["ru", "en"],
+    path: "i18n",
     localeConfigs: {
       en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
-        path: 'en',
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+        calendar: "gregory",
+        path: "en",
       },
       ru: {
-        label: 'Русский',
-        direction: 'ltr',
-        htmlLang: 'ru-RU',
-        calendar: 'gregory',
-        path: 'ru',
+        label: "Русский",
+        direction: "ltr",
+        htmlLang: "ru-RU",
+        calendar: "gregory",
+        path: "ru",
       },
     },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: 'docs',
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: "docs",
+          sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/lab240/napilinux/blob/main/',
-          lastVersion: 'current',
+          editUrl: "https://github.com/lab240/napilinux/blob/main/",
+          lastVersion: "current",
           versions: {
             current: {
-              label: 'v0.1.x',
-              path: '/',
+              label: "v0.1.x",
+              path: "/",
               badge: true,
-              banner: "none"
+              banner: "none",
             },
           },
           disableVersioning: true,
@@ -99,11 +103,10 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/lab240/napilinux/blob/main/',
+          editUrl: "https://github.com/lab240/napilinux/blob/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -115,18 +118,18 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       // @ts-ignore
-      ({
+      {
         hashed: true,
         language: ["en", "ru"],
         highlightSearchTermsOnTargetPage: true,
-      }),
+      },
     ],
   ],
 
   plugins: [
-    require.resolve('docusaurus-plugin-image-zoom'),
+    require.resolve("docusaurus-plugin-image-zoom"),
     [
-      '@docusaurus/plugin-ideal-image',
+      "@docusaurus/plugin-ideal-image",
       {
         quality: 70,
         max: 1030, // max resized image's size.
@@ -135,36 +138,39 @@ const config = {
         disableInDev: false,
       },
     ],
-    ['docusaurus-plugin-yandex-metrica', {
-      counterID: '95068142',
-      enableInProdOnly: true,
-      webvisor: true,
-    }],
     [
-      '@docusaurus/plugin-content-docs',
+      "docusaurus-plugin-yandex-metrica",
       {
-        id: 'napiConfig',
-        path: 'napiConfig',
-        routeBasePath: 'napiConfig',
-        sidebarPath: require.resolve('./sidebars.js'),
+        counterID: "95068142",
+        enableInProdOnly: true,
+        webvisor: true,
       },
     ],
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'napiconfig2',
-        path: 'napiconfig2',
-        routeBasePath: 'napiconfig2',
-        sidebarPath: require.resolve('./sidebars.js'),
+        id: "napiConfig",
+        path: "napiConfig",
+        routeBasePath: "napiConfig",
+        sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
     [
-    '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'downloads',
-        path: 'downloads',
-        routeBasePath: 'downloads',
-        sidebarPath: require.resolve('./sidebars.js'),
+        id: "napiconfig2",
+        path: "napiconfig2",
+        routeBasePath: "napiconfig2",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "downloads",
+        path: "downloads",
+        routeBasePath: "downloads",
+        sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
   ],
@@ -174,18 +180,18 @@ const config = {
     ({
       // Image zoom config
       zoom: {
-        selector: '.markdown :not(em) > img',
+        selector: ".markdown :not(em) > img",
         config: {
           // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
           background: {
-            light: 'rgb(255, 255, 255)',
-            dark: 'rgb(50, 50, 50)'
-          }
-        }
+            light: "rgb(255, 255, 255)",
+            dark: "rgb(50, 50, 50)",
+          },
+        },
       },
       // Theme dark/light mode config
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: "light",
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
@@ -203,58 +209,58 @@ const config = {
       navbar: {
         // title: 'NapiLinux',
         logo: {
-          alt: 'NapiLinux Logo',
-          src: 'img/logo.png',
-          srcDark: 'img/logo_dark.png',
+          alt: "NapiLinux Logo",
+          src: "img/logo.png",
+          srcDark: "img/logo_dark.png",
         },
         hideOnScroll: false,
         items: [
-                   {
-            to: '/napiconfig2',
-            label: 'NapiConfig2',
-            position: 'left',
+          {
+            to: "/napiconfig2",
+            label: "NapiConfig2",
+            position: "left",
           },
           {
-            to: '/downloads',
-            label: 'Downloads',
-            position: 'left',
+            to: "/downloads",
+            label: "Downloads",
+            position: "left",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Инструкции',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Инструкции",
           },
           {
-            to: '/napiConfig',
-            label: 'NapiConfig(old)',
-            position: 'left',
+            to: "/napiConfig",
+            label: "NapiConfig(old)",
+            position: "left",
           },
-          {to: '/blog', label: 'Новости', position: 'left'},
+          { to: "/blog", label: "Новости", position: "left" },
           {
-            to: 'https://sensor.napilinux.ru',
-            label: 'Sensors (beta)',
-            position: 'left'
+            to: "https://sensor.napilinux.ru",
+            label: "Sensors (beta)",
+            position: "left",
           },
           {
-            type: 'docsVersionDropdown',
-            position: 'right',
+            type: "docsVersionDropdown",
+            position: "right",
             dropdownActiveClassDisabled: true,
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
           {
-            href: 'https://github.com/lab240',
-            position: 'right',
+            href: "https://github.com/lab240",
+            position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         copyright: `Copyright © ${new Date().getFullYear()} Lab240 Built with Docusaurus.`,
       },
       prism: {
