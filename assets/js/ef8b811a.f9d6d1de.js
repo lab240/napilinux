@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknapilinux||=[]).push([[8947],{6600(t){t.exports=JSON.parse('{"authors":[{"name":"dmn","title":"lab240 maintainer","url":"https://github.com/dmnovikov","imageURL":"https://avatars.githubusercontent.com/u/17533288?v=4","key":"dmn","page":null,"count":12}]}')}}]);
