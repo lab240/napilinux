@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunknapilinux||=[]).push([[1572],{3737(a){a.exports=JSON.parse('{"tag":{"label":"napiconfig","permalink":"/blog/tags/napiconfig","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/napiconfig","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

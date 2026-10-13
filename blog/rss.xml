@@ -4,17 +4,37 @@
         <title>NapiLinux Blog</title>
         <link>https://napilinux.ru/blog</link>
         <description>NapiLinux Blog</description>
-        <lastBuildDate>Thu, 20 Aug 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[NapiConfig включён в реестр российского ПО]]></title>
+            <link>https://napilinux.ru/blog/napiconfig-reestr</link>
+            <guid>https://napilinux.ru/blog/napiconfig-reestr</guid>
+            <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[NapiConfig включён в реестр российского программного обеспечения!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fire-napiconfig-включён-в-реестр-российского-программного-обеспечения">🔥<!-- --> NapiConfig включён в реестр российского программного обеспечения!<a href="https://napilinux.ru/blog/napiconfig-reestr#fire-napiconfig-%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D1%91%D0%BD-%D0%B2-%D1%80%D0%B5%D0%B5%D1%81%D1%82%D1%80-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F" class="hash-link" aria-label="Прямая ссылка на fire-napiconfig-включён-в-реестр-российского-программного-обеспечения" title="Прямая ссылка на fire-napiconfig-включён-в-реестр-российского-программного-обеспечения" translate="no">​</a></h2>
+<p>✅<!-- --> Веб-платформа управления Linux-устройствами и периферийным оборудованием <strong>NapiConfig</strong> официально включена в Единый реестр российских программ для электронных вычислительных машин и баз данных.</p>
+<ul>
+<li class=""><strong>Включен:</strong> 02.10.2026</li>
+<li class=""><strong>Номер:</strong> 35404</li>
+</ul>
+<p>За этим результатом — большая работа команды: подготовка технической документации, описание функциональных возможностей и архитектуры продукта, подтверждение исключительных прав, настройка проверочного экземпляра и прохождение экспертизы.</p>
+<p>💻<!-- --> <strong>NapiConfig</strong> — веб-платформа для централизованного управления Linux-устройствами и периферийным оборудованием, сетевыми настройками, системными сервисами, датчиками и телеметрией.</p>
+<p>Для нас включение в реестр — важный этап развития продукта и официальное подтверждение его российского происхождения.</p>
+<p>👑<!-- --> Продолжаем развивать NapiConfig и расширять его возможности!</p>]]></content:encoded>
+            <category>napiworld</category>
+            <category>napi</category>
+            <category>napiconfig</category>
+        </item>
         <item>
             <title><![CDATA[Обновление NapiLinux 0.3.1]]></title>
             <link>https://napilinux.ru/blog/napilinux-0.3.1</link>
             <guid>https://napilinux.ru/blog/napilinux-0.3.1</guid>
             <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Обновление NapiLinux 0.3.1]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="обновление-napilinux-031">Обновление NapiLinux 0.3.1<a href="https://napilinux.ru/blog/napilinux-0.3.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-031" class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.1" title="Прямая ссылка на Обновление NapiLinux 0.3.1" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="обновле�ние-napilinux-031">Обновление NapiLinux 0.3.1<a href="https://napilinux.ru/blog/napilinux-0.3.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-031" class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.1" title="Прямая ссылка на Обновление NapiLinux 0.3.1" translate="no">​</a></h2>
 <blockquote>
 <p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer" class="">Все версии...</a></strong></p>
 </blockquote>
@@ -51,7 +71,7 @@
             <guid>https://napilinux.ru/blog/napilinux-0.3.0.1</guid>
             <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Обновление NapiLinux 0.3.0.1]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="обновление-napilinux-0301">Обновление NapiLinux 0.3.0.1<a href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0301" class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.0.1" title="Прямая ссылка на Обновление NapiLinux 0.3.0.1" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="обновлени�е-napilinux-0301">Обновление NapiLinux 0.3.0.1<a href="https://napilinux.ru/blog/napilinux-0.3.0.1#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-napilinux-0301" class="hash-link" aria-label="Прямая ссылка на Обновление NapiLinux 0.3.0.1" title="Прямая ссылка на Обновление NapiLinux 0.3.0.1" translate="no">​</a></h2>
 <blockquote>
 <p><strong><a href="https://download.napilinux.ru/napilinux/" target="_blank" rel="noopener noreferrer" class="">Все версии...</a></strong></p>
 </blockquote>
@@ -283,7 +303,7 @@
 <p><em>Модуль Orange CM4</em></p>
 <p><img decoding="async" loading="lazy" alt="Модуль Orange CM4" src="https://napilinux.ru/assets/images/cm4-90d846266d2e44a94e2466ae45949f5f.jpg" width="343" height="257" class="img_ev3q"></p>
 <p><em>Сборщик-Универсал <strong><a href="https://napiworld.ru/docs/computers-industrial/FCUCM4/" target="_blank" rel="noopener noreferrer" class="">FCUCM4</a></strong> на основе Orange CM4</em></p>
-<p><img decoding="async" loading="lazy" alt="Сборщик-Универса�л FCUCM4 на основе Orange CM4" src="https://napilinux.ru/assets/images/FCUCM4-732f268e0cabc7ff1e399ed8a2ecfe4d.jpg" width="736" height="601" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Сборщик-Универсал FCUCM4 на основе Orange CM4" src="https://napilinux.ru/assets/images/FCUCM4-732f268e0cabc7ff1e399ed8a2ecfe4d.jpg" width="736" height="601" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="технический-лог">Технический лог<a href="https://napilinux.ru/blog/napilinux-0.2.4#%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BB%D0%BE%D0%B3" class="hash-link" aria-label="Прямая ссылка на Технический лог" title="Прямая ссылка на Технический лог" translate="no">​</a></h2>
 <ul>
 <li class="">Добавлена поддержка <strong>Orange Pi CM4</strong> (u-boot, ядро, swupdate, hwrevision).</li>
@@ -316,7 +336,7 @@
 <p><img decoding="async" loading="lazy" alt="Логи службы InfluxDB" src="https://napilinux.ru/assets/images/napiservlogs-influx-63e743c47a85318fb2d3f4c9798a69a7.jpg" width="1643" height="968" class="img_ev3q"></p>
 <p>Пример: служба telegraf в отдельном окне</p>
 <p><img decoding="async" loading="lazy" alt="Логи службы Telegraf в отдельном окне" src="https://napilinux.ru/assets/images/napilogs-497c5607e70c6e1e45b16849943f0239.jpg" width="1066" height="728" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="техно-лог-обновления-023">Техно-лог обновления 0.2.3<a href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-023" class="hash-link" aria-label="Прямая ссылка на Техно-лог обновления 0.2.3" title="Прямая ссылка на Техно-лог обновления 0.2.3" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="техно-лог-обновл�ения-023">Техно-лог обновления 0.2.3<a href="https://napilinux.ru/blog/napilinux-0.2.3#%D1%82%D0%B5%D1%85%D0%BD%D0%BE-%D0%BB%D0%BE%D0%B3-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-023" class="hash-link" aria-label="Прямая ссылка на Техно-лог обновления 0.2.3" title="Прямая ссылка на Техно-лог обновления 0.2.3" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="добавлено">Добавлено<a href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE" class="hash-link" aria-label="Прямая ссылка на Добавлено" title="Прямая ссылка на Добавлено" translate="no">​</a></h3>
 <ul>
 <li class="">Системные логи: Реализована полная система управления логами</li>
@@ -329,7 +349,7 @@
 <li class="">Локализация: Добавлены переводы для системы логов на 5 языков (немецкий, английский, русский, узбекский, китайский)</li>
 <li class="">API расширения: Обновлены клиентские схемы и типы для работы с логами</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="изменено">Изменено<a href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%BE" class="hash-link" aria-label="Прямая ссылка на Изменено" title="Прямая сс�ылка на Изменено" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="изменено">Изменено<a href="https://napilinux.ru/blog/napilinux-0.2.3#%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%BE" class="hash-link" aria-label="Прямая ссылка на Изм�енено" title="Прямая ссылка на Изменено" translate="no">​</a></h3>
 <ul>
 <li class="">Обновлен Node.js до версии 22.17.1</li>
 <li class="">Улучшена конфигурация Vite для лучшей производительности</li>
@@ -375,7 +395,7 @@
             <guid>https://napilinux.ru/blog/napilinux-0.2.1</guid>
             <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Совершенно новый релиз  - 0.2.Х]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="совершенно-новый-релиз----02х">Совершенно новый релиз  - 0.2.Х<a href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B5%D0%BB%D0%B8%D0%B7----02%D1%85" class="hash-link" aria-label="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" title="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="совершенно-новый-релиз----02�х">Совершенно новый релиз  - 0.2.Х<a href="https://napilinux.ru/blog/napilinux-0.2.1#%D1%81%D0%BE%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B5%D0%BB%D0%B8%D0%B7----02%D1%85" class="hash-link" aria-label="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" title="Прямая ссылка на Совершенно новый релиз  - 0.2.Х" translate="no">​</a></h2>
 <p><strong>Целый год мы перерабатывали NapiLinux, NapiConfig, чтобы
 сделать достойный релиз с быстрой веб-частью и поддержкой популярных платформ.
 В первом релизе мы сделали упор на работу с датчиками, но теперь будем быстро дорабатывать и остальной функционал.</strong></p>
@@ -479,7 +499,7 @@
 <p>Экспериментально добавлены графики датчиков. Работает только при запущенных сервисах telegraf, influx</p>
 </li>
 </ul>
-<p><img decoding="async" loading="lazy" alt="Графики данных с датчиков" src="https://napilinux.ru/assets/images/graph-ea78a6171b3306ca2395250adfbf04c3.jpg" width="801" height="548" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Графики данных с д�атчиков" src="https://napilinux.ru/assets/images/graph-ea78a6171b3306ca2395250adfbf04c3.jpg" width="801" height="548" class="img_ev3q"></p>
 <ul>
 <li class="">Появилась вкладка "Информация", с краткой справкой</li>
 </ul>
@@ -513,7 +533,7 @@
             <guid>https://napilinux.ru/blog/napilinux-0.2.2</guid>
             <pubDate>Wed, 07 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Первое обновление - 0.2.2]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="первое-обн�овление---022">Первое обновление - 0.2.2<a href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022" class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="первое-обновление---022">Первое обновление - 0.2.2<a href="https://napilinux.ru/blog/napilinux-0.2.2#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---022" class="hash-link" aria-label="Прямая ссылка на Первое обновление - 0.2.2" title="Прямая ссылка на Первое обновление - 0.2.2" translate="no">​</a></h2>
 <p>По горячим следам выкатываем первые обновления. Внутри - исправление ошибок и новая супер-фича (которую мы хотели очень давно) - <strong>ssh терминал прямо из Веб интерфейса</strong></p>
 <blockquote>
 <p><strong>Скачать: <a href="https://download.napilinux.ru/napilinux/0.2.2/" target="_blank" rel="noopener noreferrer" class="">https://download.napilinux.ru/napilinux/0.2.2/</a></strong></p>
