@@ -32,8 +32,8 @@ This is a Docusaurus-based documentation website for NapiLinux, built with moder
 The site has multiple documentation sections configured as separate plugin instances:
 
 - `docs/` - Main documentation (Russian instructions/tutorials)
-- `napiConfig/` - Old NapiConfig documentation 
-- `napiconfig2/` - New NapiConfig documentation
+- `napiconfig/` - NapiConfig documentation
+- `napiconfig_old/` - Archive of old NapiConfig 1.x docs (not published)
 - `downloads/` - Download-related content
 - `blog/` - News and updates
 

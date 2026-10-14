@@ -117,7 +117,7 @@ qemu-system-x86_64 \
 ssh root@192.168.0.18 -p 2222
 ```
 
-- Доступ к NapiConfig2
+- Доступ к NapiConfig
 
 https://192.168.0.18:8443/
 

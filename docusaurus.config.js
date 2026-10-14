@@ -149,18 +149,9 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "napiConfig",
-        path: "napiConfig",
-        routeBasePath: "napiConfig",
-        sidebarPath: require.resolve("./sidebars.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "napiconfig2",
-        path: "napiconfig2",
-        routeBasePath: "napiconfig2",
+        id: "napiconfig",
+        path: "napiconfig",
+        routeBasePath: "napiconfig",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
@@ -216,8 +207,8 @@ const config = {
         hideOnScroll: false,
         items: [
           {
-            to: "/napiconfig2",
-            label: "NapiConfig2",
+            to: "/napiconfig",
+            label: "NapiConfig",
             position: "left",
           },
           {
@@ -230,11 +221,6 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Инструкции",
-          },
-          {
-            to: "/napiConfig",
-            label: "NapiConfig(old)",
-            position: "left",
           },
           { to: "/blog", label: "Новости", position: "left" },
           {

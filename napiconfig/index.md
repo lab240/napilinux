@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# NapiConfig 2.0
+# NapiConfig
 
-> **NapiConfig2 на основе Napi.Api** доступен в NapiLinux через веб-интерфейс на порту 443. Это легкий, быстрый и реактивный веб-интерфейс на движке Vue и FastAPI.
+> **NapiConfig на основе Napi.Api** доступен в NapiLinux через веб-интерфейс на порту 443. Это легкий, быстрый и реактивный веб-интерфейс на движке Vue и FastAPI.
 
 ## Главная страница
 
-![Главная страница NapiConfig2](img-0.2.1/main-0.2.1.jpg)
+![Главная страница NapiConfig](img-0.2.1/main-0.2.1.jpg)
 
 ## Управление интерфейсами Ethernet
 
@@ -72,7 +72,7 @@ sidebar_position: 1
 ## Логи служб
 
 
-![Логи служб в NapiConfig2](img-0.2.3/napiservlogs.jpg)
+![Логи служб в NapiConfig](img-0.2.3/napiservlogs.jpg)
 
 
 ![Логи служб в отдельном окне](img-0.2.3/napilogs.jpg)

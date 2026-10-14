@@ -20,7 +20,7 @@ https://gitlab.nnz-ipc.net/pub/napilinux/meta-nnz
 
 :::tip 
 
-В сборку frontcontrol входит система [NapiConfig](/napiConfig) - Веб-интерфейс по управлению и мониторингу NapiLinux.
+В сборку frontcontrol входит система [NapiConfig](/napiconfig) - Веб-интерфейс по управлению и мониторингу NapiLinux.
 
 :::
 
